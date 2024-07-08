@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Word Grouping Game</title>
+    <title>Davids Dodge Category Caper</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -63,6 +63,11 @@
             background-color: red;
             border-radius: 50%;
         }
+        #category-name {
+            font-size: 1.5em;
+            margin: 20px;
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -74,8 +79,9 @@
             <div class="category" id="category4">Vehicles</div>
         </div-->
         <div class="words" id="wordsGrid"></div>
-        <div id="message" class="hidden"></br>You Win!</div>
+        <div id="message" class="hidden"></br>Well done. You Win!</div>
         <div id="gameover" class="hidden"></br>Game Over!</div>
+        <div id="category-name"></div>
         <div class="guesses">
             <div class="guess" id="guess1"></div>
             <div class="guess" id="guess2"></div>
@@ -85,10 +91,10 @@
 
     <script>
         const categories = [
-            ["word1", "word2", "word3", "word4"], // Category A
-            ["word5", "word6", "word7", "word8"], // Category B
-            ["word9", "word10", "word11", "word12"], // Category C
-            ["word13", "word14", "word15", "word16"] // Category D
+            { name: "Inflict wound in a fight", words: ["word1", "word2", "word3", "word4"] },
+            { name: "Body parts", words: ["word5", "word6", "word7", "word8"] },
+            { name: "Back yard gear", words: ["word9", "word10", "word11", "word12"] },
+            { name: "Ways to ascend", words: ["word13", "word14", "word15", "word16"] }
         ];
 
         const words = [
@@ -107,7 +113,7 @@
             { id: "word13", text: "Lift" },
             { id: "word14", text: "Stair" },
             { id: "word15", text: "Escalator" },
-            { id: "word16", text: "Ladder" }
+            { id: "word16", text: "Stile" }
         ];
 
         let selectedWords = [];
@@ -150,22 +156,23 @@
         }
 
         function checkSelection() {
-            let correct = false;
+            let correctCategory = null;
 
             for (const category of categories) {
-                if (category.every(word => selectedWords.includes(word))) {
-                    correct = true;
+                if (category.words.every(word => selectedWords.includes(word))) {
+                    correctCategory = category;
                     break;
                 }
             }
 
-            if (correct) {
+            if (correctCategory) {
                 for (const wordId of selectedWords) {
                     document.getElementById(wordId).classList.add('correct');
                     document.getElementById(wordId).classList.remove('selected');
                 }
-                categories.splice(categories.findIndex(cat => cat.every(word => selectedWords.includes(word))), 1);
+                categories.splice(categories.findIndex(cat => cat.words.every(word => selectedWords.includes(word))), 1);
                 selectedWords = [];
+                showCategoryName(correctCategory.name);
 
                 if (categories.length === 0) {
                     document.getElementById('message').classList.remove('hidden');
@@ -177,6 +184,15 @@
                 selectedWords = [];
                 removeGuess();
             }
+        }
+
+        function showCategoryName(name) {
+            const categoryNameElement = document.getElementById('category-name');
+            categoryNameElement.textContent = `Category: ${name}`;
+            categoryNameElement.style.display = 'block';
+            setTimeout(() => {
+                categoryNameElement.style.display = 'none';
+            }, 4000);
         }
 
         function removeGuess() {
