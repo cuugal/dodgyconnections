@@ -1,224 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Davids Dodgy Category Caper</title>
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-        background-color: #f4f4f4;
-      }
-      .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      .categories {
-        display: flex;
-        justify-content: space-around;
-        margin: 10px;
-        width: 420px;
-      }
-      .words {
-        display: grid;
-        grid-template-columns: repeat(4, 100px);
-        grid-template-rows: repeat(4, 100px);
-        gap: 5px;
-      }
-      .category,
-      .word {
-        width: 100px;
-        height: 100px;
-        margin: 5px;
-        border: 2px solid #000;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-        background-color: #fff;
-      }
-      .selected {
-        background-color: yellow;
-      }
-      .correct {
-        background-color: lightgreen;
-      }
-      .hidden {
-        display: none;
-      }
-      .guesses {
-        display: flex;
-        margin-top: 20px;
-      }
-      .guess {
-        width: 30px;
-        height: 30px;
-        margin: 5px;
-        background-color: red;
-        border-radius: 50%;
-      }
-      #category-name {
-        font-size: 1.5em;
-        margin: 20px;
-        display: none;
-      }
-      #message {
-        margin-top: 20px; /* Add margin to create space */
-        color: green; /* Make the message green */
-        font-weight: bold; /* Make the message bold */
-      }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px;
+            width: 420px;
+        }
+        .words {
+            display: grid;
+            grid-template-columns: repeat(4, 100px);
+            grid-template-rows: repeat(4, 100px);
+            gap: 5px;
+        }
+        .category, .word {
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            border: 2px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            background-color: #fff;
+        }
+        .selected {
+            background-color: yellow;
+        }
+        .correct {
+            background-color: lightgreen;
+        }
+        .hidden {
+            display: none;
+        }
+        .guesses {
+            display: flex;
+            margin-top: 20px;
+        }
+        .guess {
+            width: 30px;
+            height: 30px;
+            margin: 5px;
+            background-color: red;
+            border-radius: 50%;
+        }
+        #category-name {
+            font-size: 1.5em;
+            margin: 20px;
+            display: none;
+        }
+        #message {
+            margin-top: 20px; /* Add margin to create space */
+            color: green; /* Make the message green */
+            font-weight: bold; /* Make the message bold */
+        }
     </style>
-  </head>
-  <body>
+</head>
+<body>
     <div class="container">
-      <div class="words" id="wordsGrid"></div>
-      <div id="message" class="hidden">Well done. You Win!</div>
-      <div id="gameover" class="hidden">Game Over!</div>
-      <div id="category-name"></div>
-      <div class="guesses">
-        <div class="guess" id="guess1"></div>
-        <div class="guess" id="guess2"></div>
-        <div class="guess" id="guess3"></div>
-      </div>
+        <div class="words" id="wordsGrid"></div>
+        <div id="message" class="hidden">Well done. You Win!</div>
+        <div id="gameover" class="hidden">Game Over!</div>
+        <div id="category-name"></div>
+        <div class="guesses">
+            <div class="guess" id="guess1"></div>
+            <div class="guess" id="guess2"></div>
+            <div class="guess" id="guess3"></div>
+        </div>
     </div>
 
+  
+  
+  
+  
+  
+  
     <script>
-      const categories = [
-        {
-          name: "Footie animals singular",
-          words: ["word1", "word2", "word3", "word4"],
-        },
-        { name: "Car parts", words: ["word5", "word6", "word7", "word8"] },
-        { name: "Shopping _", words: ["word9", "word10", "word11", "word12"] },
-        {
-          name: "Beer measures",
-          words: ["word13", "word14", "word15", "word16"],
-        },
-      ];
+        const dataFileName = 'data2.json'; // Variable for the data file name - update this to data.2.json, data3.json etc
 
-      const words = [
-        { id: "word1", text: "Eel" },
-        { id: "word2", text: "Bear" },
-        { id: "word3", text: "Shark" },
-        { id: "word4", text: "Magpie" },
-        { id: "word5", text: "Boot" },
-        { id: "word6", text: "Dash" },
-        { id: "word7", text: "Hub" },
-        { id: "word8", text: "Blinker" },
-        { id: "word9", text: "Centre" },
-        { id: "word10", text: "Trolley" },
-        { id: "word11", text: "Spree" },
-        { id: "word12", text: "District" },
-        { id: "word13", text: "Middie" },
-        { id: "word14", text: "Pint" },
-        { id: "word15", text: "Seven" },
-        { id: "word16", text: "Schooner" },
-      ];
+        let selectedWords = [];
+        let guessesLeft = 3;
+        let remainingCategories = [];
 
-      let selectedWords = [];
-      let guessesLeft = 3;
-      let remainingCategories = [...categories];
-
-      function shuffle(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [array[i], array[j]] = [array[j], array[i]];
-        }
-      }
-
-      function initializeGame() {
-        const wordsGrid = document.getElementById("wordsGrid");
-        shuffle(words);
-        wordsGrid.innerHTML = "";
-        words.forEach((word) => {
-          const wordElement = document.createElement("div");
-          wordElement.classList.add("word");
-          wordElement.id = word.id;
-          wordElement.textContent = word.text;
-          wordElement.onclick = selectWord;
-          wordsGrid.appendChild(wordElement);
-        });
-      }
-
-      function selectWord(event) {
-        const word = event.target;
-        if (selectedWords.includes(word.id)) {
-          word.classList.remove("selected");
-          selectedWords = selectedWords.filter((id) => id !== word.id);
-        } else {
-          word.classList.add("selected");
-          selectedWords.push(word.id);
+        function shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
         }
 
-        if (selectedWords.length === 4) {
-          checkSelection();
+        function initializeGame(data) {
+            const categories = data.categories;
+            const words = data.words;
+
+            remainingCategories = [...categories]; // Initialize remaining categories
+
+            const wordsGrid = document.getElementById('wordsGrid');
+            shuffle(words);
+            wordsGrid.innerHTML = '';
+            words.forEach(word => {
+                const wordElement = document.createElement('div');
+                wordElement.classList.add('word');
+                wordElement.id = word.id;
+                wordElement.textContent = word.text;
+                wordElement.onclick = selectWord;
+                wordsGrid.appendChild(wordElement);
+            });
         }
-      }
 
-      function checkSelection() {
-        let correctCategory = null;
+        function selectWord(event) {
+            const word = event.target;
+            if (selectedWords.includes(word.id)) {
+                word.classList.remove('selected');
+                selectedWords = selectedWords.filter(id => id !== word.id);
+            } else {
+                word.classList.add('selected');
+                selectedWords.push(word.id);
+            }
 
-        for (const category of remainingCategories) {
-          if (category.words.every((word) => selectedWords.includes(word))) {
-            correctCategory = category;
-            break;
-          }
+            if (selectedWords.length === 4) {
+                checkSelection();
+            }
         }
 
-        if (correctCategory) {
-          for (const wordId of selectedWords) {
-            document.getElementById(wordId).classList.add("correct");
-            document.getElementById(wordId).classList.remove("selected");
-          }
-          remainingCategories = remainingCategories.filter(
-            (cat) => cat !== correctCategory
-          );
-          selectedWords = [];
-          showCategoryName(correctCategory.name);
+        function checkSelection() {
+            let correctCategory = null;
 
-          if (remainingCategories.length === 0) {
-            document.getElementById("message").classList.remove("hidden");
-          }
-        } else {
-          for (const wordId of selectedWords) {
-            document.getElementById(wordId).classList.remove("selected");
-          }
-          selectedWords = [];
-          removeGuess();
+            for (const category of remainingCategories) { // Check against remaining categories
+                if (category.words.every(word => selectedWords.includes(word))) {
+                    correctCategory = category;
+                    break;
+                }
+            }
+
+            if (correctCategory) {
+                for (const wordId of selectedWords) {
+                    document.getElementById(wordId).classList.add('correct');
+                    document.getElementById(wordId).classList.remove('selected');
+                }
+                remainingCategories = remainingCategories.filter(cat => cat !== correctCategory); // Remove guessed category
+                selectedWords = [];
+                showCategoryName(correctCategory.name);
+
+                if (remainingCategories.length === 0) { // Check win condition
+                    document.getElementById('message').classList.remove('hidden');
+                }
+            } else {
+                for (const wordId of selectedWords) {
+                    document.getElementById(wordId).classList.remove('selected');
+                }
+                selectedWords = [];
+                removeGuess();
+            }
         }
-      }
 
-      function showCategoryName(name) {
-        const categoryNameElement = document.getElementById("category-name");
-        categoryNameElement.textContent = `Category: ${name}`;
-        categoryNameElement.style.display = "block";
-        setTimeout(() => {
-          categoryNameElement.style.display = "none";
-        }, 5000);
-      }
-
-      function removeGuess() {
-        if (guessesLeft > 0) {
-          document
-            .getElementById(`guess${guessesLeft}`)
-            .classList.add("hidden");
-          guessesLeft--;
-
-          if (guessesLeft === 0) {
-            document.getElementById("gameover").classList.remove("hidden");
-          }
+        function showCategoryName(name) {
+            const categoryNameElement = document.getElementById('category-name');
+            categoryNameElement.textContent = `Category: ${name}`;
+            categoryNameElement.style.display = 'block';
+            setTimeout(() => {
+                categoryNameElement.style.display = 'none';
+            }, 4000);
         }
-      }
 
-      // Initialize the game on page load
-      window.onload = initializeGame;
+        function removeGuess() {
+            if (guessesLeft > 0) {
+                document.getElementById(`guess${guessesLeft}`).classList.add('hidden');
+                guessesLeft--;
+
+                if (guessesLeft === 0) {
+                    document.getElementById('gameover').classList.remove('hidden');
+                }
+            }
+        }
+
+        // Fetch data from JSON file and initialize the game
+        fetch(dataFileName)
+            .then(response => response.json())
+            .then(data => initializeGame(data))
+            .catch(error => console.error('Error loading data:', error));
     </script>
-  </body>
+</body>
 </html>
