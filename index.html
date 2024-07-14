@@ -72,17 +72,9 @@
 </head>
 <body>
     <div class="container">
-        <!--div class="categories">
-            <div class="category" id="category1">Fruits</div>
-            <div class="category" id="category2">Animals</div>
-            <div class="category" id="category3">Colors</div>
-            <div class="category" id="category4">Vehicles</div>
-        </div-->
         <div class="words" id="wordsGrid"></div>
-        <div id="message" class="hidden"></div><div>
-      
-      <div>Well done. You Win!</div>
-        <div id="gameover" class="hidden"></div><div>Game Over!</div>
+        <div id="message" class="hidden">Well done. You Win!</div>
+        <div id="gameover" class="hidden">Game Over!</div>
         <div id="category-name"></div>
         <div class="guesses">
             <div class="guess" id="guess1"></div>
@@ -120,6 +112,7 @@
 
         let selectedWords = [];
         let guessesLeft = 3;
+        let remainingCategories = [...categories];
 
         function shuffle(array) {
             for (let i = array.length - 1; i > 0; i--) {
@@ -160,7 +153,7 @@
         function checkSelection() {
             let correctCategory = null;
 
-            for (const category of categories) {
+            for (const category of remainingCategories) {
                 if (category.words.every(word => selectedWords.includes(word))) {
                     correctCategory = category;
                     break;
@@ -172,11 +165,11 @@
                     document.getElementById(wordId).classList.add('correct');
                     document.getElementById(wordId).classList.remove('selected');
                 }
-                categories.splice(categories.findIndex(cat => cat.words.every(word => selectedWords.includes(word))), 1);
+                remainingCategories = remainingCategories.filter(cat => cat !== correctCategory);
                 selectedWords = [];
                 showCategoryName(correctCategory.name);
 
-                if (categories.length === 0) {
+                if (remainingCategories.length === 0) {
                     document.getElementById('message').classList.remove('hidden');
                 }
             } else {
@@ -213,3 +206,4 @@
     </script>
 </body>
 </html>
+
