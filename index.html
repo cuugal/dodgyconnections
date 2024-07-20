@@ -81,12 +81,17 @@
         #title {
             color: blue; /* Make the title blue */
         }
+        /* Added style for spacing */
+        .spacing {
+            height: 20px; /* Adjust the height as needed */
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h2 id="title">Davids Dodgy Category Ripoff  #3</h2> <!-- Added title above the grid -->
+        <h2 id="title"></h2> <!-- Title will be set dynamically -->
         <div class="words" id="wordsGrid"></div>
+        <div class="spacing"></div> <!-- Added spacing div -->
         <div id="message" class="hidden">Well done. You Win!</div>
         <div id="gameover" class="hidden">Game Over!</div>
         <div id="category-name"></div>
@@ -99,7 +104,10 @@
     </div>
 
     <script>
-        const dataFileName = 'data2.json'; // Variable for the data file name
+        const dataFileName = 'data3.json'; // Variable for the data file name
+        const gameNumber = 3; // Variable for the game number
+
+        document.getElementById('title').textContent = `Davids Dodgy Category Ripoff #${gameNumber}`;
 
         let selectedWords = [];
         let guessesLeft = 3;

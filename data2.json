@@ -1,26 +1,29 @@
 {
     "categories": [
-        { "name": "Mobile worker", "words": ["word1", "word2", "word3", "word4"] },
-        { "name": "On the Aussie coat of arms", "words": ["word5", "word6", "word7", "word8"] },
-        { "name": "_ horn", "words": ["word9", "word10", "word11", "word12"] },
-        { "name": "Body part then three letters", "words": ["word13", "word14", "word15", "word16"] }
+        { "name": "Footie animals singular", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Car parts", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Shopping _", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Beer measures", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
-        { "id": "word1", "text": "Garbo" },
-        { "id": "word2", "text": "Postie" },
-        { "id": "word3", "text": "Cop" },
-        { "id": "word4", "text": "Ranger" },
-        { "id": "word5", "text": "Star" },
-        { "id": "word6", "text": "Wattle" },
-        { "id": "word7", "text": "Roo" },
-        { "id": "word8", "text": "Shield" },
-        { "id": "word9", "text": "Shoe" },
-        { "id": "word10", "text": "Fog" },
-        { "id": "word11", "text": "French" },
-        { "id": "word12", "text": "Rhino" },
-        { "id": "word13", "text": "Armour" },
-        { "id": "word14", "text": "Arsenal" },
-        { "id": "word15", "text": "Legend" },
-        { "id": "word16", "text": "Earthy" }
+        { "id": "word1", "text": "Eel" },
+        { "id": "word2", "text": "Bear" },
+        { "id": "word3", "text": "Shark" },
+        { "id": "word4", "text": "Magpie" },
+      
+        { "id": "word5", "text": "Boot" },
+        { "id": "word6", "text": "Dash" },
+        { "id": "word7", "text": "Hub" },
+        { "id": "word8", "text": "Blinker" },
+      
+        { "id": "word9", "text": "Centre" },
+        { "id": "word10", "text": "Trolley" },
+        { "id": "word11", "text": "Spree" },
+        { "id": "word12", "text": "District" },
+      
+        { "id": "word13", "text": "Middie" },
+        { "id": "word14", "text": "Pint" },
+        { "id": "word15", "text": "Seven" },
+        { "id": "word16", "text": "Schooner" }
     ]
 }

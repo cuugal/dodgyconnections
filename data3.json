@@ -1,29 +1,26 @@
 {
     "categories": [
-        { "name": "Food", "words": ["word1", "word2", "word3", "word4"] },
-        { "name": "Retail outlet", "words": ["word5", "word6", "word7", "word8"] },
-        { "name": "Accept an idea", "words": ["word9", "word10", "word11", "word12"] },
-        { "name": "Big _", "words": ["word13", "word14", "word15", "word16"] }
+        { "name": "Mobile worker", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "On the Aussie coat of arms", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "_ horn", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Body part then three letters", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
-        { "id": "word1", "text": "Grub" },
-        { "id": "word2", "text": "Tucker" },
-        { "id": "word3", "text": "Nosh" },
-        { "id": "word4", "text": "Fare" },
-      
-        { "id": "word5", "text": "Shop" },
-        { "id": "word6", "text": "Servo" },
-        { "id": "word7", "text": "Salon" },
-        { "id": "word8", "text": "Boutique" },
-      
-        { "id": "word9", "text": "Buy" },
-        { "id": "word10", "text": "Trust" },
-        { "id": "word11", "text": "Swallow" },
-        { "id": "word12", "text": "Believe" },
-      
-        { "id": "word13", "text": "Deal" },
-        { "id": "word14", "text": "Whoopie" },
-        { "id": "word15", "text": "W" },
-        { "id": "word16", "text": "Lebowski" }
+        { "id": "word1", "text": "Garbo" },
+        { "id": "word2", "text": "Postie" },
+        { "id": "word3", "text": "Cop" },
+        { "id": "word4", "text": "Ranger" },
+        { "id": "word5", "text": "Star" },
+        { "id": "word6", "text": "Wattle" },
+        { "id": "word7", "text": "Roo" },
+        { "id": "word8", "text": "Shield" },
+        { "id": "word9", "text": "Shoe" },
+        { "id": "word10", "text": "Fog" },
+        { "id": "word11", "text": "French" },
+        { "id": "word12", "text": "Rhino" },
+        { "id": "word13", "text": "Armour" },
+        { "id": "word14", "text": "Arsenal" },
+        { "id": "word15", "text": "Legend" },
+        { "id": "word16", "text": "Earthy" }
     ]
 }
