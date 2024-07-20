@@ -73,6 +73,10 @@
             color: green; /* Make the message green */
             font-weight: bold; /* Make the message bold */
         }
+        #correct-categories {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
     </style>
 </head>
 <body>
@@ -81,6 +85,7 @@
         <div id="message" class="hidden">Well done. You Win!</div>
         <div id="gameover" class="hidden">Game Over!</div>
         <div id="category-name"></div>
+        <div id="correct-categories"></div>
         <div class="guesses">
             <div class="guess" id="guess1"></div>
             <div class="guess" id="guess2"></div>
@@ -88,14 +93,8 @@
         </div>
     </div>
 
-  
-  
-  <!-- data1-jun2024, data2-10jun24, -->
-  
-  
-  
     <script>
-        const dataFileName = 'data2.json'; // Variable for the data file name - update this to data.2.json, data3.json etc
+        const dataFileName = 'data2.json'; // Variable for the data file name
 
         let selectedWords = [];
         let guessesLeft = 3;
@@ -125,6 +124,9 @@
                 wordElement.onclick = selectWord;
                 wordsGrid.appendChild(wordElement);
             });
+
+            // Hide category name on grid click
+            wordsGrid.addEventListener('click', hideCategoryName);
         }
 
         function selectWord(event) {
@@ -177,9 +179,16 @@
             const categoryNameElement = document.getElementById('category-name');
             categoryNameElement.textContent = `Category: ${name}`;
             categoryNameElement.style.display = 'block';
-            setTimeout(() => {
-                categoryNameElement.style.display = 'none';
-            }, 4000);
+            
+            const correctCategoriesElement = document.getElementById('correct-categories');
+            const categoryItem = document.createElement('div');
+            categoryItem.textContent = `Correct Category: ${name}`;
+            correctCategoriesElement.appendChild(categoryItem);
+        }
+
+        function hideCategoryName() {
+            const categoryNameElement = document.getElementById('category-name');
+            categoryNameElement.style.display = 'none';
         }
 
         function removeGuess() {
