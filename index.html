@@ -110,6 +110,7 @@
             <div class="guess" id="guess1"></div>
             <div class="guess" id="guess2"></div>
             <div class="guess" id="guess3"></div>
+            <div class="guess" id="guess4"></div> <!-- New guess indicator -->
         </div>
     </div>
 
@@ -120,7 +121,7 @@
         document.getElementById('title').textContent = `Davids Dodgy Category Ripoff #${gameNumber}`;
 
         let selectedWords = [];
-        let guessesLeft = 3;
+        let guessesLeft = 4; // Updated to 4 guesses
         let remainingCategories = [];
 
         function shuffle(array) {
