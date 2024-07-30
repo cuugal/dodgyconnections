@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Sydney ferries", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Palindromes", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Lime_", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Netball teams", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Friendship" },
+        { "id": "word2", "text": "Supply" },
+        { "id": "word3", "text": "Sirius" },
+        { "id": "word4", "text": "Fishburn" },
+      
+        { "id": "word5", "text": "Level" },
+        { "id": "word6", "text": "Civic" },
+        { "id": "word7", "text": "Mum" },
+        { "id": "word8", "text": "Kayak" },
+      
+        { "id": "word9", "text": "Spider" },
+        { "id": "word10", "text": "Wash" },
+        { "id": "word11", "text": "Stone" },
+        { "id": "word12", "text": "Light" },
+      
+        { "id": "word13", "text": "Lightning" },
+        { "id": "word14", "text": "Fever" },
+        { "id": "word15", "text": "Swifts" },
+        { "id": "word16", "text": "Vixens" }
+    ]
+}
