@@ -6,16 +6,16 @@
         { "name": "Petulant complaint", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
-        { "id": "word1", "text": "Wasp" },
-        { "id": "word2", "text": "Pedestrian crossing" },
-        { "id": "word3", "text": "Tiger" },
-        { "id": "word4", "text": "Coral snake" },
+        { "id": "word1", "text": "Friendship" },
+        { "id": "word2", "text": "Supply" },
+        { "id": "word3", "text": "Sirius" },
+        { "id": "word4", "text": "Fishburn" },
       
-        { "id": "word5", "text": "Babe" },
-        { "id": "word6", "text": "Porky" },
-        { "id": "word7", "text": "Peppa" },
-        { "id": "word8", "text": "Wilbur" },
-      //up to here
+        { "id": "word5", "text": "Level" },
+        { "id": "word6", "text": "Civic" },
+        { "id": "word7", "text": "Mum" },
+        { "id": "word8", "text": "Kayak" },
+      
         { "id": "word9", "text": "Spider" },
         { "id": "word10", "text": "Wash" },
         { "id": "word11", "text": "Stone" },
