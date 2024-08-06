@@ -1,9 +1,9 @@
 {
     "categories": [
-        { "name": "Sydney ferries / First fleet ships", "words": ["word1", "word2", "word3", "word4"] },
-        { "name": "Palindromes", "words": ["word5", "word6", "word7", "word8"] },
-        { "name": "Lime_", "words": ["word9", "word10", "word11", "word12"] },
-        { "name": "Petulant complaint", "words": ["word13", "word14", "word15", "word16"] }
+        { "name": "Striped things", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Fictional pigs", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Annoy", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Post _", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
         { "id": "word1", "text": "Wasp" },
@@ -15,15 +15,15 @@
         { "id": "word6", "text": "Porky" },
         { "id": "word7", "text": "Peppa" },
         { "id": "word8", "text": "Wilbur" },
-      //up to here
-        { "id": "word9", "text": "Spider" },
-        { "id": "word10", "text": "Wash" },
-        { "id": "word11", "text": "Stone" },
-        { "id": "word12", "text": "Light" },
       
-        { "id": "word13", "text": "Sook" },
-        { "id": "word14", "text": "Whinge" },
-        { "id": "word15", "text": "Carp" },
-        { "id": "word16", "text": "Sulk" }
+        { "id": "word9", "text": "Badger" },
+        { "id": "word10", "text": "Hound" },
+        { "id": "word11", "text": "Goad" },
+        { "id": "word12", "text": "Nag" },
+      
+        { "id": "word13", "text": "Hoc" },
+        { "id": "word14", "text": "Office" },
+        { "id": "word15", "text": "Graduate" },
+        { "id": "word16", "text": "Code" }
     ]
 }
