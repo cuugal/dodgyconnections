@@ -1,29 +1,29 @@
 {
     "categories": [
-        { "name": "Bridge types", "words": ["word1", "word2", "word3", "word4"] },
-        { "name": "Storage space", "words": ["word5", "word6", "word7", "word8"] },
-        { "name": "Kitchen canisters", "words": ["word9", "word10", "word11", "word12"] },
-        { "name": "_ fly", "words": ["word13", "word14", "word15", "word16"] }
+        { "name": "Board games", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Small town", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Stormy wind", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Chain _", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
-        { "id": "word1", "text": "Suspension" },
-        { "id": "word2", "text": "Arch" },
-        { "id": "word3", "text": "Truss" },
-        { "id": "word4", "text": "Beam" },
+        { "id": "word1", "text": "Go" },
+        { "id": "word2", "text": "Othello" },
+        { "id": "word3", "text": "Risk" },
+        { "id": "word4", "text": "Squatter" },
       
-        { "id": "word5", "text": "Vault" },
-        { "id": "word6", "text": "Bunker" },
-        { "id": "word7", "text": "Cellar" },
-        { "id": "word8", "text": "Hold" },
+        { "id": "word5", "text": "Hamlet" },
+        { "id": "word6", "text": "Community" },
+        { "id": "word7", "text": "Village" },
+        { "id": "word8", "text": "Settlement" },
       
-        { "id": "word9", "text": "Flour" },
-        { "id": "word10", "text": "Tea" },
-        { "id": "word11", "text": "Sugar" },
-        { "id": "word12", "text": "Rice" },
+        { "id": "word9", "text": "Tempest" },
+        { "id": "word10", "text": "Squall" },
+        { "id": "word11", "text": "Buster" },
+        { "id": "word12", "text": "Gale" },
       
-        { "id": "word13", "text": "Bar" },
-        { "id": "word14", "text": "Blow" },
-        { "id": "word15", "text": "Fire" },
-        { "id": "word16", "text": "Fruit" }
+        { "id": "word13", "text": "Reaction" },
+        { "id": "word14", "text": "Gang" },
+        { "id": "word15", "text": "Mail" },
+        { "id": "word16", "text": "Saw" }
     ]
 }
