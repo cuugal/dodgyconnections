@@ -1,9 +1,9 @@
 {
     "categories": [
-        { "name": "Sydney ferries / First fleet ships", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Board games", "words": ["word1", "word2", "word3", "word4"] },
         { "name": "Palindromes", "words": ["word5", "word6", "word7", "word8"] },
-        { "name": "Lime_", "words": ["word9", "word10", "word11", "word12"] },
-        { "name": "Petulant complaint", "words": ["word13", "word14", "word15", "word16"] }
+        { "name": "Stormy wind", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Chain _", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
         { "id": "word1", "text": "Friendship" },
