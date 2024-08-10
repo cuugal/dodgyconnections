@@ -115,17 +115,17 @@
     </div>
 
     <script>
-      //update each game - the next two lines
         const dataFileName = 'data6.json'; // Variable for the data file name
         const gameNumber = 6; // Variable for the game number
 
-      
-      
         document.getElementById('title').textContent = `Davids Dodgy Category Ripoff #${gameNumber}`;
 
         let selectedWords = [];
         let guessesLeft = 4; // Updated to 4 guesses
         let remainingCategories = [];
+        let currentColorIndex = 0; // Index to track the current color
+
+        const colors = ['lightgreen', 'lightblue', 'lightcoral', 'lightgoldenrodyellow']; // Array of colors
 
         function shuffle(array) {
             for (let i = array.length - 1; i > 0; i--) {
@@ -183,9 +183,10 @@
 
             if (correctCategory) {
                 for (const wordId of selectedWords) {
-                    document.getElementById(wordId).classList.add('correct');
+                    document.getElementById(wordId).style.backgroundColor = colors[currentColorIndex]; // Apply the current color
                     document.getElementById(wordId).classList.remove('selected');
                 }
+                currentColorIndex = (currentColorIndex + 1) % colors.length; // Move to the next color
                 remainingCategories = remainingCategories.filter(cat => cat !== correctCategory); // Remove guessed category
                 selectedWords = [];
                 showCategoryName(correctCategory.name);
