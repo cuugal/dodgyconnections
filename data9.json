@@ -1,8 +1,8 @@
 {
     "categories": [
         { "name": "Desire", "words": ["word1", "word2", "word3", "word4"] },
-        { "name": "Magicians do these to cards", "words": ["word5", "word6", "word7", "word8"] },
-        { "name": "Birds", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Magicians do to cards", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Mouth parts", "words": ["word9", "word10", "word11", "word12"] },
         { "name": "_ flower", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
@@ -16,10 +16,10 @@
         { "id": "word7", "text": "Shuffle" },
         { "id": "word8", "text": "Force" },
       
-        { "id": "word9", "text": "Robin" },
-        { "id": "word10", "text": "Tit" },
-        { "id": "word11", "text": "Swift" },
-        { "id": "word12", "text": "Galah" },
+        { "id": "word9", "text": "Gum" },
+        { "id": "word10", "text": "Lip" },
+        { "id": "word11", "text": "Tounge" },
+        { "id": "word12", "text": "Roof" },
       
         { "id": "word13", "text": "Corn" },
         { "id": "word14", "text": "May" },
