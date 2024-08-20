@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Delete", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Homophones", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "_ card", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Scuffle", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Clear" },
+        { "id": "word2", "text": "Erase" },
+        { "id": "word3", "text": "Wipe" },
+        { "id": "word4", "text": "Remove" },
+      
+        { "id": "word5", "text": "Red" },
+        { "id": "word6", "text": "Wood" },
+        { "id": "word7", "text": "Wait" },
+        { "id": "word8", "text": "Tacks" },
+      
+        { "id": "word9", "text": "Green" },
+        { "id": "word10", "text": "Score" },
+        { "id": "word11", "text": "Opal" },
+        { "id": "word12", "text": "Credit" },
+      
+        { "id": "word13", "text": "Blue" },
+        { "id": "word14", "text": "Row" },
+        { "id": "word15", "text": "Scrap" },
+        { "id": "word16", "text": "Tiff" }
+    ]
+}
