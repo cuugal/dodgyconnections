@@ -2,7 +2,7 @@
     "categories": [
         { "name": "To refute", "words": ["word1", "word2", "word3", "word4"] },
         { "name": "Haircuts", "words": ["word5", "word6", "word7", "word8"] },
-        { "name": "Perfume descriptors", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Perfume notes", "words": ["word9", "word10", "word11", "word12"] },
         { "name": "_ bird", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
