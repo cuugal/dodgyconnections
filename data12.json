@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Netball teams", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Rockabilly motifs", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Words that can repeat", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ head", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Lightning" },
+        { "id": "word2", "text": "Fever" },
+        { "id": "word3", "text": "Swifts" },
+        { "id": "word4", "text": "Giants" },
+      
+        { "id": "word5", "text": "Swallows" },
+        { "id": "word6", "text": "Dice" },
+        { "id": "word7", "text": "Flames" },
+        { "id": "word8", "text": "Cherries" },
+      
+        { "id": "word9", "text": "Chop" },
+        { "id": "word10", "text": "So" },
+        { "id": "word11", "text": "Hush" },
+        { "id": "word12", "text": "Fifty" },
+      
+        { "id": "word13", "text": "Phillips" },
+        { "id": "word14", "text": "Black" },
+        { "id": "word15", "text": "Pin" },
+        { "id": "word16", "text": "Boof" }
+    ]
+}

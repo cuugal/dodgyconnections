@@ -1,29 +1,29 @@
 {
     "categories": [
-        { "name": "Footie animals singular", "words": ["word1", "word2", "word3", "word4"] },
-        { "name": "Car parts", "words": ["word5", "word6", "word7", "word8"] },
-        { "name": "Shopping _", "words": ["word9", "word10", "word11", "word12"] },
-        { "name": "Beer measures", "words": ["word13", "word14", "word15", "word16"] }
+        { "name": "one", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "two", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "three", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "four", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
-        { "id": "word1", "text": "Eel" },
-        { "id": "word2", "text": "Bear" },
-        { "id": "word3", "text": "Shark" },
-        { "id": "word4", "text": "Magpie" },
+        { "id": "word1", "text": "a" },
+        { "id": "word2", "text": "b" },
+        { "id": "word3", "text": "c" },
+        { "id": "word4", "text": "d" },
       
-        { "id": "word5", "text": "Boot" },
-        { "id": "word6", "text": "Dash" },
-        { "id": "word7", "text": "Hub" },
-        { "id": "word8", "text": "Blinker" },
+        { "id": "word5", "text": "e" },
+        { "id": "word6", "text": "f" },
+        { "id": "word7", "text": "g" },
+        { "id": "word8", "text": "h" },
       
-        { "id": "word9", "text": "Centre" },
-        { "id": "word10", "text": "Trolley" },
-        { "id": "word11", "text": "Spree" },
-        { "id": "word12", "text": "District" },
+        { "id": "word9", "text": "i" },
+        { "id": "word10", "text": "j" },
+        { "id": "word11", "text": "k" },
+        { "id": "word12", "text": "l" },
       
-        { "id": "word13", "text": "Middie" },
-        { "id": "word14", "text": "Pint" },
-        { "id": "word15", "text": "Seven" },
-        { "id": "word16", "text": "Schooner" }
+        { "id": "word13", "text": "m" },
+        { "id": "word14", "text": "n" },
+        { "id": "word15", "text": "o" },
+        { "id": "word16", "text": "p" }
     ]
 }
