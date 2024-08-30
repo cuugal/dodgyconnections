@@ -1,8 +1,8 @@
 {
     "categories": [
         { "name": "Found in a newspaper", "words": ["word1", "word2", "word3", "word4"] },
-        { "name": "Month three letters start", "words": ["word5", "word6", "word7", "word8"] },
-        { "name": "Malignger", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Month three letters to start", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Malinger", "words": ["word9", "word10", "word11", "word12"] },
         { "name": "TV inspectors", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
