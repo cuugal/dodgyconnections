@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Fish", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Cricket positions", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "To guide", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ Dog", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Flounder" },
+        { "id": "word2", "text": "Sole" },
+        { "id": "word3", "text": "Bass" },
+        { "id": "word4", "text": "Pike" },
+      
+        { "id": "word5", "text": "Cover" },
+        { "id": "word6", "text": "Gully" },
+        { "id": "word7", "text": "Point" },
+        { "id": "word8", "text": "Slip" },
+      
+        { "id": "word9", "text": "Lead" },
+        { "id": "word10", "text": "Steer" },
+        { "id": "word11", "text": "Direct" },
+        { "id": "word12", "text": "Pilot" },
+      
+        { "id": "word13", "text": "Sheep" },
+        { "id": "word14", "text": "Hot" },
+        { "id": "word15", "text": "Lap" },
+        { "id": "word16", "text": "Guard" }
+    ]
+}
