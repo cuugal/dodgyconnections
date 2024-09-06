@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Units of measurement", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "_ cut", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Parsimonious", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Diamond cuts", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Hertz" },
+        { "id": "word2", "text": "Amp" },
+        { "id": "word3", "text": "Lux" },
+        { "id": "word4", "text": "Mole" },
+      
+        { "id": "word5", "text": "Budget" },
+        { "id": "word6", "text": "Hair" },
+        { "id": "word7", "text": "Upper" },
+        { "id": "word8", "text": "Diamond" },
+      
+        { "id": "word9", "text": "Thrifty" },
+        { "id": "word10", "text": "Tight" },
+        { "id": "word11", "text": "Cheap" },
+        { "id": "word12", "text": "Frugal" },
+      
+        { "id": "word13", "text": "Oval" },
+        { "id": "word14", "text": "Heart" },
+        { "id": "word15", "text": "Cushion" },
+        { "id": "word16", "text": "Pear" }
+    ]
+}
