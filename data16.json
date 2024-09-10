@@ -9,11 +9,11 @@
         { "id": "word1", "text": "Barge" },
         { "id": "word2", "text": "Tinny" },
         { "id": "word3", "text": "Ferry" },
-        { "id": "word4", "text": "Laser" },
+        { "id": "word4", "text": "Yacht" },
       
         { "id": "word5", "text": "Swat" },
         { "id": "word6", "text": "Ram" },
-        { "id": "word7", "text": "Radar" },
+        { "id": "word7", "text": "Laser" },
         { "id": "word8", "text": "Pin" },
       
         { "id": "word9", "text": "Lead" },
@@ -24,6 +24,6 @@
         { "id": "word13", "text": "Exercise" },
         { "id": "word14", "text": "Dirt" },
         { "id": "word15", "text": "Electric" },
-        { "id": "word16", "text": "Speed" }
+        { "id": "word16", "text": "Road" }
     ]
 }
