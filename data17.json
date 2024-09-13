@@ -1,6 +1,6 @@
 {
     "categories": [
-        { "name": "COIT", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "COIT (homophones)", "words": ["word1", "word2", "word3", "word4"] },
         { "name": "Ring shaped", "words": ["word5", "word6", "word7", "word8"] },
         { "name": "Found on cricket pitch", "words": ["word9", "word10", "word11", "word12"] },
         { "name": "_stone", "words": ["word13", "word14", "word15", "word16"] }
