@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "COIT", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Circular things", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Found on cricket pitch", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_stone", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "See" },
+        { "id": "word2", "text": "Owe" },
+        { "id": "word3", "text": "Eye" },
+        { "id": "word4", "text": "Tea" },
+      
+        { "id": "word5", "text": "Hoop" },
+        { "id": "word6", "text": "Band" },
+        { "id": "word7", "text": "Quoit" },
+        { "id": "word8", "text": "Halo" },
+      
+        { "id": "word9", "text": "Ball" },
+        { "id": "word10", "text": "Crease" },
+        { "id": "word11", "text": "Stump" },
+        { "id": "word12", "text": "Bail" },
+      
+        { "id": "word13", "text": "Key" },
+        { "id": "word14", "text": "Gem" },
+        { "id": "word15", "text": "Mill" },
+        { "id": "word16", "text": "Rhine" }
+    ]
+}
