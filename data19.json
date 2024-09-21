@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Female animals", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Dental work", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Football fan paraphernalia", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "High _", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Queen" },
+        { "id": "word2", "text": "Jill" },
+        { "id": "word3", "text": "Sow" },
+        { "id": "word4", "text": "Pen" },
+      
+        { "id": "word5", "text": "Crown" },
+        { "id": "word6", "text": "Filling" },
+        { "id": "word7", "text": "Bridge" },
+        { "id": "word8", "text": "Cap" },
+      
+        { "id": "word9", "text": "Scarf" },
+        { "id": "word10", "text": "Banner" },
+        { "id": "word11", "text": "Bunting" },
+        { "id": "word12", "text": "Flag" },
+      
+        { "id": "word13", "text": "Court" },
+        { "id": "word14", "text": "School" },
+        { "id": "word15", "text": "Tea" },
+        { "id": "word16", "text": "Anxiety" }
+    ]
+}
