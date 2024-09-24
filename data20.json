@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "To rotate", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Harry Potter titles last word", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Fabric weaves", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Mother _", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Wind" },
+        { "id": "word2", "text": "Turn" },
+        { "id": "word3", "text": "Twist" },
+        { "id": "word4", "text": "Roll" },
+      
+        { "id": "word5", "text": "Stone" },
+        { "id": "word6", "text": "Fire" },
+        { "id": "word7", "text": "Prince" },
+        { "id": "word8", "text": "Pheonix" },
+      
+        { "id": "word9", "text": "Dobby" },
+        { "id": "word10", "text": "Twill" },
+        { "id": "word11", "text": "Satin" },
+        { "id": "word12", "text": "Crepe" },
+      
+        { "id": "word13", "text": "Earth" },
+        { "id": "word14", "text": "Goose" },
+        { "id": "word15", "text": "Tongue" },
+        { "id": "word16", "text": "Mary" }
+    ]
+}
