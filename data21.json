@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Quarks", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Religious acts", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Agile aves", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "First _", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Down" },
+        { "id": "word2", "text": "Strange" },
+        { "id": "word3", "text": "Charm" },
+        { "id": "word4", "text": "Top" },
+      
+        { "id": "word5", "text": "Fast" },
+        { "id": "word6", "text": "Pray" },
+        { "id": "word7", "text": "Confess" },
+        { "id": "word8", "text": "Serve" },
+      
+        { "id": "word9", "text": "Swift" },
+        { "id": "word10", "text": "Swallow" },
+        { "id": "word11", "text": "Lark" },
+        { "id": "word12", "text": "Martin" },
+      
+        { "id": "word13", "text": "Fleet" },
+        { "id": "word14", "text": "Place" },
+        { "id": "word15", "text": "Responder" },
+        { "id": "word16", "text": "Class" }
+    ]
+}
