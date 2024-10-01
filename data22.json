@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Express an idea", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Aussie big things", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Can be drawn", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Sticky _", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Convey" },
+        { "id": "word2", "text": "Declare" },
+        { "id": "word3", "text": "State" },
+        { "id": "word4", "text": "Present" },
+      
+        { "id": "word5", "text": "Merino" },
+        { "id": "word6", "text": "Prawn" },
+        { "id": "word7", "text": "Banana" },
+        { "id": "word8", "text": "Tennis racquet" },
+      
+        { "id": "word9", "text": "Game" },
+        { "id": "word10", "text": "Sketch" },
+        { "id": "word11", "text": "Pistol" },
+        { "id": "word12", "text": "Breath" },
+      
+        { "id": "word13", "text": "Date" },
+        { "id": "word14", "text": "Beak" },
+        { "id": "word15", "text": "Tape" },
+        { "id": "word16", "text": "Rice" }
+    ]
+}
