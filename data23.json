@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Fishing methods", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Chair parts", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Rugby positions", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Victuals", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Fly" },
+        { "id": "word2", "text": "Bait" },
+        { "id": "word3", "text": "Troll" },
+        { "id": "word4", "text": "Net" },
+      
+        { "id": "word5", "text": "Leg" },
+        { "id": "word6", "text": "Back" },
+        { "id": "word7", "text": "Apron" },
+        { "id": "word8", "text": "Seat" },
+      
+        { "id": "word9", "text": "Wing" },
+        { "id": "word10", "text": "Half" },
+        { "id": "word11", "text": "Prop" },
+        { "id": "word12", "text": "Centre" },
+      
+        { "id": "word13", "text": "Grub" },
+        { "id": "word14", "text": "Tucker" },
+        { "id": "word15", "text": "Chow" },
+        { "id": "word16", "text": "Fare" }
+    ]
+}
