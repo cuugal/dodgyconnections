@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Dance styles", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Found in cricket kit bag", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Baby animals", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Elements missing first letter", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Bop" },
+        { "id": "word2", "text": "Hop" },
+        { "id": "word3", "text": "Tap" },
+        { "id": "word4", "text": "Rap" },
+      
+        { "id": "word5", "text": "Box" },
+        { "id": "word6", "text": "Pad" },
+        { "id": "word7", "text": "Bat" },
+        { "id": "word8", "text": "Cap" },
+      
+        { "id": "word9", "text": "Kit" },
+        { "id": "word10", "text": "Fry" },
+        { "id": "word11", "text": "Kid" },
+        { "id": "word12", "text": "Pup" },
+      
+        { "id": "word13", "text": "Old" },
+        { "id": "word14", "text": "Ron" },
+        { "id": "word15", "text": "Eon" },
+        { "id": "word16", "text": "Inc" }
+    ]
+}
