@@ -1,14 +1,14 @@
 {
     "categories": [
-        { "name": "Dance styles", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Music styles", "words": ["word1", "word2", "word3", "word4"] },
         { "name": "Found in cricket kit bag", "words": ["word5", "word6", "word7", "word8"] },
         { "name": "Baby animals", "words": ["word9", "word10", "word11", "word12"] },
         { "name": "Elements missing first letter", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
-        { "id": "word1", "text": "Bop" },
-        { "id": "word2", "text": "Hop" },
-        { "id": "word3", "text": "Tap" },
+        { "id": "word1", "text": "Pop" },
+        { "id": "word2", "text": "Dub" },
+        { "id": "word3", "text": "Ska" },
         { "id": "word4", "text": "Rap" },
       
         { "id": "word5", "text": "Box" },
