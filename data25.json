@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Roof parts", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Incline", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Cover for the lounge", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Used in stage production", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Ridge" },
+        { "id": "word2", "text": "Hip" },
+        { "id": "word3", "text": "Rake" },
+        { "id": "word4", "text": "Gutter" },
+      
+        { "id": "word5", "text": "Pitch" },
+        { "id": "word6", "text": "Angle" },
+        { "id": "word7", "text": "Slope" },
+        { "id": "word8", "text": "Grade" },
+      
+        { "id": "word9", "text": "Throw" },
+        { "id": "word10", "text": "Blanket" },
+        { "id": "word11", "text": "Shawl" },
+        { "id": "word12", "text": "Rug" },
+      
+        { "id": "word13", "text": "Cast" },
+        { "id": "word14", "text": "Crew" },
+        { "id": "word15", "text": "Script" },
+        { "id": "word16", "text": "Set" }
+    ]
+}
