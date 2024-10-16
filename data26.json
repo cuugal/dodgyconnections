@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Steer clear of", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "To envelope", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Contranyms", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ way", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Skirt" },
+        { "id": "word2", "text": "Avoid" },
+        { "id": "word3", "text": "Bypass" },
+        { "id": "word4", "text": "Dodge" },
+      
+        { "id": "word5", "text": "Wrap" },
+        { "id": "word6", "text": "Cloak" },
+        { "id": "word7", "text": "Cocoon" },
+        { "id": "word8", "text": "Veil" },
+      
+        { "id": "word9", "text": "Sanction" },
+        { "id": "word10", "text": "Oversight" },
+        { "id": "word11", "text": "Bolt" },
+        { "id": "word12", "text": "Screen" },
+      
+        { "id": "word13", "text": "Slip" },
+        { "id": "word14", "text": "Free" },
+        { "id": "word15", "text": "High" },
+        { "id": "word16", "text": "By" }
+    ]
+}
