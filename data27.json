@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Done to cake", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Summon a taxi", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Found in crochet kit", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ pea", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Frost" },
+        { "id": "word2", "text": "Bake" },
+        { "id": "word3", "text": "Glaze" },
+        { "id": "word4", "text": "Slice" },
+      
+        { "id": "word5", "text": "Hail" },
+        { "id": "word6", "text": "Flag" },
+        { "id": "word7", "text": "Beckon" },
+        { "id": "word8", "text": "Catch" },
+      
+        { "id": "word9", "text": "Hook" },
+        { "id": "word10", "text": "Yarn" },
+        { "id": "word11", "text": "Tape" },
+        { "id": "word12", "text": "Needle" },
+      
+        { "id": "word13", "text": "Snow" },
+        { "id": "word14", "text": "Green" },
+        { "id": "word15", "text": "Black eye" },
+        { "id": "word16", "text": "Split" }
+    ]
+}
