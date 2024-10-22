@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Walk on the Wild Side mentions", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "A Midsummer Night's Dream characters", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Biscuits", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Oil paints: _ green", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Holly" },
+        { "id": "word2", "text": "Sugar Plum Fairy" },
+        { "id": "word3", "text": "Little Joe" },
+        { "id": "word4", "text": "Candy" },
+      
+        { "id": "word5", "text": "Puck" },
+        { "id": "word6", "text": "Oberon" },
+        { "id": "word7", "text": "Titania" },
+        { "id": "word8", "text": "Nick Bottom" },
+      
+        { "id": "word9", "text": "Monte Carlo" },
+        { "id": "word10", "text": "Nice" },
+        { "id": "word11", "text": "Kingston" },
+        { "id": "word12", "text": "Venetian" },
+      
+        { "id": "word13", "text": "Paris" },
+        { "id": "word14", "text": "Cadmium" },
+        { "id": "word15", "text": "Sap" },
+        { "id": "word16", "text": "Emerald" }
+    ]
+}
