@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Photoshop functions", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Countries missing the first letter", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Big Chill actors", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ Moon", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Dodge" },
+        { "id": "word2", "text": "Burn" },
+        { "id": "word3", "text": "Highlight" },
+        { "id": "word4", "text": "Crop" },
+      
+        { "id": "word5", "text": "Pain" },
+        { "id": "word6", "text": "Wanda" },
+        { "id": "word7", "text": "Enya" },
+        { "id": "word8", "text": "Inland" },
+      
+        { "id": "word9", "text": "Close" },
+        { "id": "word10", "text": "Hurt" },
+        { "id": "word11", "text": "Place" },
+        { "id": "word12", "text": "Kline" },
+      
+        { "id": "word13", "text": "Harvest" },
+        { "id": "word14", "text": "Blue" },
+        { "id": "word15", "text": "Sailor" },
+        { "id": "word16", "text": "Keith" }
+    ]
+}
