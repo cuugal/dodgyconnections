@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Electrical circuit parts", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Spare _", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Table types", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Keyboard keys", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Switch" },
+        { "id": "word2", "text": "Load" },
+        { "id": "word3", "text": "Cell" },
+        { "id": "word4", "text": "Wire" },
+      
+        { "id": "word5", "text": "Change" },
+        { "id": "word6", "text": "Tyre" },
+        { "id": "word7", "text": "Time" },
+        { "id": "word8", "text": "Key" },
+      
+        { "id": "word9", "text": "Altar" },
+        { "id": "word10", "text": "Bench" },
+        { "id": "word11", "text": "Counter" },
+        { "id": "word12", "text": "Buffet" },
+      
+        { "id": "word13", "text": "Shift" },
+        { "id": "word14", "text": "Escape" },
+        { "id": "word15", "text": "Function" },
+        { "id": "word16", "text": "Control" }
+    ]
+}
