@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Plaugurise", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Repeat after", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Things with points", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ vote", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Crib" },
+        { "id": "word2", "text": "Pirate" },
+        { "id": "word3", "text": "Rip" },
+        { "id": "word4", "text": "Knockoff" },
+      
+        { "id": "word5", "text": "Parrot" },
+        { "id": "word6", "text": "Apre" },
+        { "id": "word7", "text": "Echo" },
+        { "id": "word8", "text": "Key" },
+      
+        { "id": "word9", "text": "Altar" },
+        { "id": "word10", "text": "Bench" },
+        { "id": "word11", "text": "Counter" },
+        { "id": "word12", "text": "Buffet" },
+      
+        { "id": "word13", "text": "Shift" },
+        { "id": "word14", "text": "Escape" },
+        { "id": "word15", "text": "Function" },
+        { "id": "word16", "text": "Control" }
+    ]
+}
