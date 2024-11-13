@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "School places", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Road signs", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Pest control", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Gardening items", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Plague Round" },
+        { "id": "word2", "text": "Sigh and Slab" },
+        { "id": "word3", "text": "Canned Teen" },
+        { "id": "word4", "text": "Buy Cracks" },
+      
+        { "id": "word5", "text": "Quay Pout" },
+        { "id": "word6", "text": "Nose Topping" },
+        { "id": "word7", "text": "Bust Hop" },
+        { "id": "word8", "text": "Wry Tern" },
+      
+        { "id": "word9", "text": "Why Toil" },
+        { "id": "word10", "text": "Her Beside" },
+        { "id": "word11", "text": "Fay Cowl" },
+        { "id": "word12", "text": "My Straps" },
+      
+        { "id": "word13", "text": "Guard a Nose" },
+        { "id": "word14", "text": "Wee Ledger" },
+        { "id": "word15", "text": "Four Candles" },
+        { "id": "word16", "text": "Head Jeers" }
+    ]
+}
