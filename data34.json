@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Fluid conduits", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Found in drum kit", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Number measure", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ Door", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Channel" },
+        { "id": "word2", "text": "Duct" },
+        { "id": "word3", "text": "Pipe" },
+        { "id": "word4", "text": "Artery" },
+      
+        { "id": "word5", "text": "Snare" },
+        { "id": "word6", "text": "Stick" },
+        { "id": "word7", "text": "Bass" },
+        { "id": "word8", "text": "Pedal" },
+      
+        { "id": "word9", "text": "Score" },
+        { "id": "word10", "text": "Gross" },
+        { "id": "word11", "text": "Ream" },
+        { "id": "word12", "text": "Peck" },
+      
+        { "id": "word13", "text": "Trap" },
+        { "id": "word14", "text": "Screen" },
+        { "id": "word15", "text": "Fire" },
+        { "id": "word16", "text": "Back" }
+    ]
+}
