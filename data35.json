@@ -1,7 +1,7 @@
 {
     "categories": [
         { "name": "Group of animals", "words": ["word1", "word2", "word3", "word4"] },
-        { "name": "NV, QT, XS, RC", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "SA, QT, XS, NV", "words": ["word5", "word6", "word7", "word8"] },
         { "name": "Zoom at top speed", "words": ["word9", "word10", "word11", "word12"] },
         { "name": "_ Jack", "words": ["word13", "word14", "word15", "word16"] }
     ],
@@ -11,10 +11,10 @@
         { "id": "word3", "text": "Mob" },
         { "id": "word4", "text": "School" },
       
-        { "id": "word5", "text": "Envy" },
-        { "id": "word6", "text": "Essay" },
+        { "id": "word5", "text": "Essay" },
+        { "id": "word6", "text": "Cutie" },
         { "id": "word7", "text": "Excess" },
-        { "id": "word8", "text": "Arsey" },
+        { "id": "word8", "text": "Envy" },
       
         { "id": "word9", "text": "Fang" },
         { "id": "word10", "text": "Bolt" },
