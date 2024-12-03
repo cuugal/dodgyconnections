@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Hot things", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Brick parts :)", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Troll and annoy", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ Box", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Salamander" },
+        { "id": "word2", "text": "Poker" },
+        { "id": "word3", "text": "Grill" },
+        { "id": "word4", "text": "Lava" },
+      
+        { "id": "word5", "text": "Frog" },
+        { "id": "word6", "text": "Stretcher" },
+        { "id": "word7", "text": "Header" },
+        { "id": "word8", "text": "Bed" },
+      
+        { "id": "word9", "text": "Badger" },
+        { "id": "word10", "text": "Bait" },
+        { "id": "word11", "text": "Bug" },
+        { "id": "word12", "text": "Harry" },
+      
+        { "id": "word13", "text": "Beat" },
+        { "id": "word14", "text": "Lunch" },
+        { "id": "word15", "text": "Black" },
+        { "id": "word16", "text": "Sand" }
+    ]
+}

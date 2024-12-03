@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Star signs", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Prawn varieties", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Put up with", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ Block", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Twin" },
+        { "id": "word2", "text": "Goat" },
+        { "id": "word3", "text": "Scales" },
+        { "id": "word4", "text": "Crab" },
+      
+        { "id": "word5", "text": "Tiger" },
+        { "id": "word6", "text": "King" },
+        { "id": "word7", "text": "School" },
+        { "id": "word8", "text": "Bannana" },
+      
+        { "id": "word9", "text": "Bear" },
+        { "id": "word10", "text": "Stand" },
+        { "id": "word11", "text": "Take" },
+        { "id": "word12", "text": "Abide" },
+      
+        { "id": "word13", "text": "Lego" },
+        { "id": "word14", "text": "Besser" },
+        { "id": "word15", "text": "Engine" },
+        { "id": "word16", "text": "Road" }
+    ]
+}
