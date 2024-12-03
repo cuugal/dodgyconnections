@@ -1,7 +1,7 @@
 {
     "categories": [
-        { "name": "Aplication of paint", "words": ["word1", "word2", "word3", "word4"] },
-        { "name": "Drinking glass types", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Application of paint", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Cocktail glass types", "words": ["word5", "word6", "word7", "word8"] },
         { "name": "Audacity", "words": ["word9", "word10", "word11", "word12"] },
         { "name": "_ Bar", "words": ["word13", "word14", "word15", "word16"] }
     ],
@@ -11,7 +11,7 @@
         { "id": "word3", "text": "Lick" },
         { "id": "word4", "text": "Glaze" },
       
-        { "id": "word5", "text": "Baloon" },
+        { "id": "word5", "text": "Balloon" },
         { "id": "word6", "text": "Flute" },
         { "id": "word7", "text": "Sour" },
         { "id": "word8", "text": "Shot" },
