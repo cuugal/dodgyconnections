@@ -1,7 +1,7 @@
 {
     "categories": [
         { "name": "Hot things", "words": ["word1", "word2", "word3", "word4"] },
-        { "name": "Brick parts :)", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Brick parts (sorry) :)", "words": ["word5", "word6", "word7", "word8"] },
         { "name": "Troll and annoy", "words": ["word9", "word10", "word11", "word12"] },
         { "name": "_ Box", "words": ["word13", "word14", "word15", "word16"] }
     ],
