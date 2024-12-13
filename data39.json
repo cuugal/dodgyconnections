@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Found at the beach", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Hoard away for later", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Negotiate the venting of mechandise", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Flat _", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Rip" },
+        { "id": "word2", "text": "Channel" },
+        { "id": "word3", "text": "Surf" },
+        { "id": "word4", "text": "Dune" },
+      
+        { "id": "word5", "text": "Store " },
+        { "id": "word6", "text": "Reserve" },
+        { "id": "word7", "text": "Stash" },
+        { "id": "word8", "text": "Squirrel" },
+      
+        { "id": "word9", "text": "Hawk" },
+        { "id": "word10", "text": "Flog" },
+        { "id": "word11", "text": "Peddle" },
+        { "id": "word12", "text": "Deal" },
+      
+        { "id": "word13", "text": "Out" },
+        { "id": "word14", "text": "Chat" },
+        { "id": "word15", "text": "Mate" },
+        { "id": "word16", "text": "Tyre" }
+    ]
+}
