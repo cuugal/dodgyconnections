@@ -2,7 +2,7 @@
     "categories": [
         { "name": "Done to sheep", "words": ["word1", "word2", "word3", "word4"] },
         { "name": "Moist marshy place", "words": ["word5", "word6", "word7", "word8"] },
-        { "name": "Demeanor", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Tone or demeanor", "words": ["word9", "word10", "word11", "word12"] },
         { "name": "Wheel _", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
