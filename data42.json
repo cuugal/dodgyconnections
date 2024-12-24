@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Christmas tree paraphernalia", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Sun protection", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Summon a taxi", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ House", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Snow" },
+        { "id": "word2", "text": "Star" },
+        { "id": "word3", "text": "Bauble" },
+        { "id": "word4", "text": "Angel" },
+      
+        { "id": "word5", "text": "Hat" },
+        { "id": "word6", "text": "Sunnies" },
+        { "id": "word7", "text": "Umbrella" },
+        { "id": "word8", "text": "Rashie" },
+      
+        { "id": "word9", "text": "Hail" },
+        { "id": "word10", "text": "Catch" },
+        { "id": "word11", "text": "Flag" },
+        { "id": "word12", "text": "Call" },
+      
+        { "id": "word13", "text": "Ice" },
+        { "id": "word14", "text": "Crowded" },
+        { "id": "word15", "text": "Glass" },
+        { "id": "word16", "text": "Light" }
+    ]
+}
