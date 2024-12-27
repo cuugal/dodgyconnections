@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "State licence plate mottos", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "News reports", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Ultimate", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Gold _", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Premier" },
+        { "id": "word2", "text": "Sunshine" },
+        { "id": "word3", "text": "Education" },
+        { "id": "word4", "text": "Outback" },
+      
+        { "id": "word5", "text": "Finance" },
+        { "id": "word6", "text": "Weather" },
+        { "id": "word7", "text": "Surf" },
+        { "id": "word8", "text": "Traffic" },
+      
+        { "id": "word9", "text": "Goat" },
+        { "id": "word10", "text": "Supreme" },
+        { "id": "word11", "text": "Peak" },
+        { "id": "word12", "text": "Prime" },
+      
+        { "id": "word13", "text": "Coast" },
+        { "id": "word14", "text": "Rush" },
+        { "id": "word15", "text": "Standard" },
+        { "id": "word16", "text": "Medal" }
+    ]
+}
