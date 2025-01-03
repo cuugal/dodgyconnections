@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Potentate", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "_ knife", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Mythical chimera", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Movie dogs", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Prince" },
+        { "id": "word2", "text": "Duke" },
+        { "id": "word3", "text": "Pharoah" },
+        { "id": "word4", "text": "Lord" },
+      
+        { "id": "word5", "text": "Bread" },
+        { "id": "word6", "text": "Butter" },
+        { "id": "word7", "text": "Pocket" },
+        { "id": "word8", "text": "Bowie" },
+      
+        { "id": "word9", "text": "Yale" },
+        { "id": "word10", "text": "Sphinx" },
+        { "id": "word11", "text": "Echidna" },
+        { "id": "word12", "text": "Kelpie" },
+      
+        { "id": "word13", "text": "Toto" },
+        { "id": "word14", "text": "Beethovan" },
+        { "id": "word15", "text": "Hooch" },
+        { "id": "word16", "text": "Marley" }
+    ]
+}
