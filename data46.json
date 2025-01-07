@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Phonetic alphabet vowels", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Business undertaking", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Rices", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Australian creative awards", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Echo" },
+        { "id": "word2", "text": "India" },
+        { "id": "word3", "text": "Oscar" },
+        { "id": "word4", "text": "Uniform" },
+      
+        { "id": "word5", "text": "Outfit" },
+        { "id": "word6", "text": "Operation" },
+        { "id": "word7", "text": "Firm" },
+        { "id": "word8", "text": "Venture" },
+      
+        { "id": "word9", "text": "Brown" },
+        { "id": "word10", "text": "Long" },
+        { "id": "word11", "text": "Wild" },
+        { "id": "word12", "text": "Jasmine" },
+      
+        { "id": "word13", "text": "Logie" },
+        { "id": "word14", "text": "Stella" },
+        { "id": "word15", "text": "Wynne" },
+        { "id": "word16", "text": "Aria" }
+    ]
+}
