@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Bathrooom fittings", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Wine bottle parts", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Cultivate affection", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Power _", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Tap" },
+        { "id": "word2", "text": "Mirror" },
+        { "id": "word3", "text": "Basin" },
+        { "id": "word4", "text": "Rack" },
+      
+        { "id": "word5", "text": "Neck" },
+        { "id": "word6", "text": "Punt" },
+        { "id": "word7", "text": "Cap" },
+        { "id": "word8", "text": "Label" },
+      
+        { "id": "word9", "text": "Court" },
+        { "id": "word10", "text": "Woo" },
+        { "id": "word11", "text": "Tune" },
+        { "id": "word12", "text": "Charm" },
+      
+        { "id": "word13", "text": "Nap" },
+        { "id": "word14", "text": "Band" },
+        { "id": "word15", "text": "Ball" },
+        { "id": "word16", "text": "Supply" }
+    ]
+}
