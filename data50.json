@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "_ Theory", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Things that glow", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Control interface elements", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Has teeth", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "String" },
+        { "id": "word2", "text": "Big bang" },
+        { "id": "word3", "text": "Germ" },
+        { "id": "word4", "text": "Game" },
+      
+        { "id": "word5", "text": "Firefly" },
+        { "id": "word6", "text": "Ember" },
+        { "id": "word7", "text": "Filament" },
+        { "id": "word8", "text": "Watch hand" },
+      
+        { "id": "word9", "text": "Wheel" },
+        { "id": "word10", "text": "Button" },
+        { "id": "word11", "text": "Lever" },
+        { "id": "word12", "text": "Toggle" },
+      
+        { "id": "word13", "text": "Zipper" },
+        { "id": "word14", "text": "Cog" },
+        { "id": "word15", "text": "Comb" },
+        { "id": "word16", "text": "Saw" }
+    ]
+}
