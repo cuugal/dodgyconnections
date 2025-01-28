@@ -1,29 +1,29 @@
 {
     "categories": [
-        { "name": "Folk music styles", "words": ["word1", "word2", "word3", "word4"] },
-        { "name": "ALP national presidents", "words": ["word5", "word6", "word7", "word8"] },
-        { "name": "Aussie islands", "words": ["word9", "word10", "word11", "word12"] },
-        { "name": "Red hues", "words": ["word13", "word14", "word15", "word16"] }
+        { "name": "Folk dance styles", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Endure", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Have spots", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Snow _", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
-        { "id": "word1", "text": "Drongo" },
-        { "id": "word2", "text": "Galah" },
-        { "id": "word3", "text": "Goose" },
-        { "id": "word4", "text": "Booby" },
+        { "id": "word1", "text": "Reel" },
+        { "id": "word2", "text": "Jig" },
+        { "id": "word3", "text": "Hornpipe" },
+        { "id": "word4", "text": "Polka" },
       
-        { "id": "word5", "text": "Swan" },
-        { "id": "word6", "text": "Hawke" },
-        { "id": "word7", "text": "Wran" },
-        { "id": "word8", "text": "Burney" },
+        { "id": "word5", "text": "Stomach" },
+        { "id": "word6", "text": "Take" },
+        { "id": "word7", "text": "Handle" },
+        { "id": "word8", "text": "Bear" },
       
-        { "id": "word9", "text": "Philip" },
-        { "id": "word10", "text": "Hamilton" },
-        { "id": "word11", "text": "King" },
-        { "id": "word12", "text": "Heron" },
+        { "id": "word9", "text": "Lady bug" },
+        { "id": "word10", "text": "Leopard" },
+        { "id": "word11", "text": "Teenager" },
+        { "id": "word12", "text": "Dice" },
       
-        { "id": "word13", "text": "Cardinal" },
-        { "id": "word14", "text": "Ruby" },
-        { "id": "word15", "text": "Rose" },
-        { "id": "word16", "text": "Coral" }
+        { "id": "word13", "text": "Man" },
+        { "id": "word14", "text": "Ball" },
+        { "id": "word15", "text": "Cone" },
+        { "id": "word16", "text": "Angel" }
     ]
 }
