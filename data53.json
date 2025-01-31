@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Nationalities homonyms", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Boxing moves", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Tea types", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "King _", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Check" },
+        { "id": "word2", "text": "Pole" },
+        { "id": "word3", "text": "Fin" },
+        { "id": "word4", "text": "Tie" },
+      
+        { "id": "word5", "text": "Hook" },
+        { "id": "word6", "text": "Cross" },
+        { "id": "word7", "text": "Jab" },
+        { "id": "word8", "text": "Block" },
+      
+        { "id": "word9", "text": "Mate" },
+        { "id": "word10", "text": "Breakfast" },
+        { "id": "word11", "text": "Green" },
+        { "id": "word12", "text": "Ginger" },
+      
+        { "id": "word13", "text": "Cobra" },
+        { "id": "word14", "text": "Pin" },
+        { "id": "word15", "text": "Bed" },
+        { "id": "word16", "text": "Charles" }
+    ]
+}
