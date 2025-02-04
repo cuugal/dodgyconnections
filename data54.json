@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Smurfs", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Tenpin bowlin terms", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Horse drawn vehicles", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ dance", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Grouch" },
+        { "id": "word2", "text": "Papa" },
+        { "id": "word3", "text": "Chef" },
+        { "id": "word4", "text": "Vanity" },
+      
+        { "id": "word5", "text": "Alley" },
+        { "id": "word6", "text": "Spare" },
+        { "id": "word7", "text": "Frame" },
+        { "id": "word8", "text": "Gutter" },
+      
+        { "id": "word9", "text": "Sulky" },
+        { "id": "word10", "text": "Coach" },
+        { "id": "word11", "text": "Cart" },
+        { "id": "word12", "text": "Trap" },
+      
+        { "id": "word13", "text": "Line" },
+        { "id": "word14", "text": "Square" },
+        { "id": "word15", "text": "Pole" },
+        { "id": "word16", "text": "Tap" }
+    ]
+}
