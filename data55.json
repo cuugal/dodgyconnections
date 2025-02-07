@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Horse hoof features", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Plant parts found underground", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Delivery of persistent verbiage", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ board", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Frog" },
+        { "id": "word2", "text": "Sole" },
+        { "id": "word3", "text": "Heel" },
+        { "id": "word4", "text": "Bar" },
+      
+        { "id": "word5", "text": "Tuber" },
+        { "id": "word6", "text": "Corm" },
+        { "id": "word7", "text": "Root" },
+        { "id": "word8", "text": "Bulb" },
+      
+        { "id": "word9", "text": "Harp" },
+        { "id": "word10", "text": "Drum" },
+        { "id": "word11", "text": "Rabbit" },
+        { "id": "word12", "text": "Drone" },
+      
+        { "id": "word13", "text": "Duck" },
+        { "id": "word14", "text": "Surf" },
+        { "id": "word15", "text": "Key" },
+        { "id": "word16", "text": "Dart" }
+    ]
+}
