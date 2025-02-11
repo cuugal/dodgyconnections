@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Super rugby teams", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Source of strength and reliability", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Found in te TV room", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ shark", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Blues" },
+        { "id": "word2", "text": "Force" },
+        { "id": "word3", "text": "Hurricanes" },
+        { "id": "word4", "text": "Drua" },
+      
+        { "id": "word5", "text": "Rock" },
+        { "id": "word6", "text": "Pillar" },
+        { "id": "word7", "text": "Anchor" },
+        { "id": "word8", "text": "Lighthouse" },
+      
+        { "id": "word9", "text": "Lounge" },
+        { "id": "word10", "text": "Cabinet" },
+        { "id": "word11", "text": "Table" },
+        { "id": "word12", "text": "Lamp" },
+      
+        { "id": "word13", "text": "Bull" },
+        { "id": "word14", "text": "Blue" },
+        { "id": "word15", "text": "Nurse" },
+        { "id": "word16", "text": "Tiger" }
+    ]
+}
