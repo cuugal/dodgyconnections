@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Keratinaceous body parts", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Fortitude", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Things that can be inflated", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ bank", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Nail" },
+        { "id": "word2", "text": "Hair" },
+        { "id": "word3", "text": "Horn" },
+        { "id": "word4", "text": "Hoove" },
+      
+        { "id": "word5", "text": "Guts" },
+        { "id": "word6", "text": "Balls" },
+        { "id": "word7", "text": "Spine" },
+        { "id": "word8", "text": "Nerve" },
+      
+        { "id": "word9", "text": "Tyre" },
+        { "id": "word10", "text": "Ego" },
+        { "id": "word11", "text": "Baloon" },
+        { "id": "word12", "text": "Lilo" },
+      
+        { "id": "word13", "text": "River" },
+        { "id": "word14", "text": "Blood" },
+        { "id": "word15", "text": "Reserve" },
+        { "id": "word16", "text": "Data" }
+    ]
+}
