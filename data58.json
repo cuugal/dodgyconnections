@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Mixing desk controls", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Move to avoid", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Group of humans", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ paper", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Fade" },
+        { "id": "word2", "text": "Pan" },
+        { "id": "word3", "text": "Pitch" },
+        { "id": "word4", "text": "Gain" },
+      
+        { "id": "word5", "text": "Bob" },
+        { "id": "word6", "text": "Duck" },
+        { "id": "word7", "text": "Dodge" },
+        { "id": "word8", "text": "Weave" },
+      
+        { "id": "word9", "text": "Crew" },
+        { "id": "word10", "text": "Team" },
+        { "id": "word11", "text": "Gang" },
+        { "id": "word12", "text": "Squad" },
+      
+        { "id": "word13", "text": "Sand" },
+        { "id": "word14", "text": "Graph" },
+        { "id": "word15", "text": "Dunny" },
+        { "id": "word16", "text": "Bond" }
+    ]
+}
