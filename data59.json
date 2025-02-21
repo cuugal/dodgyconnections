@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Icey precipitation", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Things that go under other things", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Justification", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ Jam", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Powder" },
+        { "id": "word2", "text": "Sago" },
+        { "id": "word3", "text": "Sleet" },
+        { "id": "word4", "text": "Rime" },
+      
+        { "id": "word5", "text": "Doily" },
+        { "id": "word6", "text": "Mat" },
+        { "id": "word7", "text": "Triffit" },
+        { "id": "word8", "text": "Coaster" },
+      
+        { "id": "word9", "text": "Reason" },
+        { "id": "word10", "text": "Cause" },
+        { "id": "word11", "text": "Basis" },
+        { "id": "word12", "text": "Motive" },
+      
+        { "id": "word13", "text": "Pearl" },
+        { "id": "word14", "text": "Traffic" },
+        { "id": "word15", "text": "Fig" },
+        { "id": "word16", "text": "Paper" }
+    ]
+}
