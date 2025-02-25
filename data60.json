@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Found at a wedding", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "To present an event", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Secure an item", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ Ball", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Ring" },
+        { "id": "word2", "text": "Train" },
+        { "id": "word3", "text": "Cake" },
+        { "id": "word4", "text": "Altar" },
+      
+        { "id": "word5", "text": "Host" },
+        { "id": "word6", "text": "Throw" },
+        { "id": "word7", "text": "Hold" },
+        { "id": "word8", "text": "Stage" },
+      
+        { "id": "word9", "text": "Bag" },
+        { "id": "word10", "text": "Catch" },
+        { "id": "word11", "text": "Land" },
+        { "id": "word12", "text": "Snatch" },
+      
+        { "id": "word13", "text": "Exercise" },
+        { "id": "word14", "text": "Beach" },
+        { "id": "word15", "text": "Dodge" },
+        { "id": "word16", "text": "Golf" }
+    ]
+}
