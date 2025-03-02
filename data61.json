@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Common weeds", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Take a look", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Past tense sense homophones", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Dog _", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Dock" },
+        { "id": "word2", "text": "Nightshade" },
+        { "id": "word3", "text": "Thistle" },
+        { "id": "word4", "text": "Spurge" },
+      
+        { "id": "word5", "text": "Peer" },
+        { "id": "word6", "text": "Gander" },
+        { "id": "word7", "text": "Gawk" },
+        { "id": "word8", "text": "Squiz" },
+      
+        { "id": "word9", "text": "Herd" },
+        { "id": "word10", "text": "Felt" },
+        { "id": "word11", "text": "Smelt" },
+        { "id": "word12", "text": "Scene" },
+      
+        { "id": "word13", "text": "Whistle" },
+        { "id": "word14", "text": "Days" },
+        { "id": "word15", "text": "Fight" },
+        { "id": "word16", "text": "Leash" }
+    ]
+}
