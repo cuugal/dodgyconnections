@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Vertical support structure", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Things thhat are cut", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Entity", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Movie _", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Pier" },
+        { "id": "word2", "text": "Post" },
+        { "id": "word3", "text": "Pile" },
+        { "id": "word4", "text": "Column" },
+      
+        { "id": "word5", "text": "Key" },
+        { "id": "word6", "text": "Hair" },
+        { "id": "word7", "text": "Lawn" },
+        { "id": "word8", "text": "Costs" },
+      
+        { "id": "word9", "text": "Article" },
+        { "id": "word10", "text": "Item" },
+        { "id": "word11", "text": "Object" },
+        { "id": "word12", "text": "Piece" },
+      
+        { "id": "word13", "text": "Review" },
+        { "id": "word14", "text": "Theatre" },
+        { "id": "word15", "text": "Ticket" },
+        { "id": "word16", "text": "Star" }
+    ]
+}
