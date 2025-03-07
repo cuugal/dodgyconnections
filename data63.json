@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Transport NSW letter codes", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Vowels of course", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "First name homophones (Kay, Dee, Elle, Jay)", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Common elements of life", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "B" },
+        { "id": "word2", "text": "T" },
+        { "id": "word3", "text": "F" },
+        { "id": "word4", "text": "M" },
+      
+        { "id": "word5", "text": "A" },
+        { "id": "word6", "text": "E" },
+        { "id": "word7", "text": "I" },
+        { "id": "word8", "text": "U" },
+      
+        { "id": "word9", "text": "K" },
+        { "id": "word10", "text": "D" },
+        { "id": "word11", "text": "L" },
+        { "id": "word12", "text": "J" },
+      
+        { "id": "word13", "text": "N" },
+        { "id": "word14", "text": "C" },
+        { "id": "word15", "text": "H" },
+        { "id": "word16", "text": "P" }
+    ]
+}
