@@ -1,15 +1,15 @@
 {
     "categories": [
-        { "name": "Transport mode codes", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Highest scoring scrabble letters", "words": ["word1", "word2", "word3", "word4"] },
         { "name": "Vowels of course", "words": ["word5", "word6", "word7", "word8"] },
         { "name": "First unabbrev name homophones (Kay, Dee, Elle, Jay)", "words": ["word9", "word10", "word11", "word12"] },
         { "name": "Elements of life", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
-        { "id": "word1", "text": "B" },
-        { "id": "word2", "text": "T" },
-        { "id": "word3", "text": "F" },
-        { "id": "word4", "text": "M" },
+        { "id": "word1", "text": "J" },
+        { "id": "word2", "text": "X" },
+        { "id": "word3", "text": "Q" },
+        { "id": "word4", "text": "Z" },
       
         { "id": "word5", "text": "A" },
         { "id": "word6", "text": "E" },
