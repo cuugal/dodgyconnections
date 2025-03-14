@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Cold weather wear", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "To scurry", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Scam", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ bowl", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Muff" },
+        { "id": "word2", "text": "Scarf" },
+        { "id": "word3", "text": "Beanie" },
+        { "id": "word4", "text": "Glove" },
+      
+        { "id": "word5", "text": "Pelt" },
+        { "id": "word6", "text": "Zip" },
+        { "id": "word7", "text": "Dart" },
+        { "id": "word8", "text": "Dash" },
+      
+        { "id": "word9", "text": "Fleece" },
+        { "id": "word10", "text": "Grift" },
+        { "id": "word11", "text": "Diddle" },
+        { "id": "word12", "text": "Shaft" },
+      
+        { "id": "word13", "text": "Super" },
+        { "id": "word14", "text": "Dust" },
+        { "id": "word15", "text": "Punch" },
+        { "id": "word16", "text": "Salad" }
+    ]
+}
