@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Champion tennis players", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Fairground rides last word", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Small lot of land", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Pie _", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Court" },
+        { "id": "word2", "text": "Graff" },
+        { "id": "word3", "text": "King" },
+        { "id": "word4", "text": "Wills" },
+      
+        { "id": "word5", "text": "Wheel" },
+        { "id": "word6", "text": "Coaster" },
+        { "id": "word7", "text": "Dipper" },
+        { "id": "word8", "text": "Mouse" },
+      
+        { "id": "word9", "text": "Plot" },
+        { "id": "word10", "text": "Block" },
+        { "id": "word11", "text": "Parcel" },
+        { "id": "word12", "text": "Stand" },
+      
+        { "id": "word13", "text": "Chart" },
+        { "id": "word14", "text": "Floater" },
+        { "id": "word15", "text": "Crust" },
+        { "id": "word16", "text": "Tin" }
+    ]
+}
