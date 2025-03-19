@@ -2,7 +2,7 @@
     "categories": [
         { "name": "Highest scoring scrabble letters", "words": ["word1", "word2", "word3", "word4"] },
         { "name": "Vowels of course", "words": ["word5", "word6", "word7", "word8"] },
-        { "name": "First unabbrev name homophones (Kay, Dee, Elle, Jay)", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Train, Bus, ferry, metro", "words": ["word9", "word10", "word11", "word12"] },
         { "name": "Elements of life", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
@@ -16,10 +16,10 @@
         { "id": "word7", "text": "I" },
         { "id": "word8", "text": "U" },
       
-        { "id": "word9", "text": "K" },
-        { "id": "word10", "text": "D" },
-        { "id": "word11", "text": "L" },
-        { "id": "word12", "text": "J" },
+        { "id": "word9", "text": "T" },
+        { "id": "word10", "text": "B" },
+        { "id": "word11", "text": "F" },
+        { "id": "word12", "text": "M" },
       
         { "id": "word13", "text": "N" },
         { "id": "word14", "text": "C" },
