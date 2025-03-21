@@ -1,6 +1,6 @@
 {
     "categories": [
-        { "name": "Sewing kit gear", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Found in sewing kit", "words": ["word1", "word2", "word3", "word4"] },
         { "name": "News media", "words": ["word5", "word6", "word7", "word8"] },
         { "name": "School of _", "words": ["word9", "word10", "word11", "word12"] },
         { "name": "Be housed in accomodation", "words": ["word13", "word14", "word15", "word16"] }
