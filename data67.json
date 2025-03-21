@@ -3,7 +3,7 @@
         { "name": "Sewing kit gear", "words": ["word1", "word2", "word3", "word4"] },
         { "name": "News sources", "words": ["word5", "word6", "word7", "word8"] },
         { "name": "School of _", "words": ["word9", "word10", "word11", "word12"] },
-        { "name": "Arachnid _", "words": ["word13", "word14", "word15", "word16"] }
+        { "name": "Be housed in accomodation", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
         { "id": "word1", "text": "Scissors" },
@@ -16,14 +16,14 @@
         { "id": "word7", "text": "Dipper" },
         { "id": "word8", "text": "Mouse" },
       
-        { "id": "word9", "text": "Plot" },
-        { "id": "word10", "text": "Block" },
-        { "id": "word11", "text": "Parcel" },
-        { "id": "word12", "text": "Stand" },
+        { "id": "word9", "text": "Rock" },
+        { "id": "word10", "text": "Hard knocks" },
+        { "id": "word11", "text": "Fish" },
+        { "id": "word12", "text": "Thought" },
       
-        { "id": "word13", "text": "Chart" },
-        { "id": "word14", "text": "Floater" },
-        { "id": "word15", "text": "Crust" },
-        { "id": "word16", "text": "Tin" }
+        { "id": "word13", "text": "Board" },
+        { "id": "word14", "text": "Lodge" },
+        { "id": "word15", "text": "Reside" },
+        { "id": "word16", "text": "Quarter" }
     ]
 }
