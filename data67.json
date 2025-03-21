@@ -1,7 +1,7 @@
 {
     "categories": [
         { "name": "Sewing kit gear", "words": ["word1", "word2", "word3", "word4"] },
-        { "name": "News sources", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "News media", "words": ["word5", "word6", "word7", "word8"] },
         { "name": "School of _", "words": ["word9", "word10", "word11", "word12"] },
         { "name": "Be housed in accomodation", "words": ["word13", "word14", "word15", "word16"] }
     ],
@@ -11,10 +11,10 @@
         { "id": "word3", "text": "Tape" },
         { "id": "word4", "text": "Pin" },
       
-        { "id": "word5", "text": "Wheel" },
-        { "id": "word6", "text": "Coaster" },
-        { "id": "word7", "text": "Dipper" },
-        { "id": "word8", "text": "Mouse" },
+        { "id": "word5", "text": "Paper" },
+        { "id": "word6", "text": "Tellie" },
+        { "id": "word7", "text": "Radio" },
+        { "id": "word8", "text": "Web" },
       
         { "id": "word9", "text": "Rock" },
         { "id": "word10", "text": "Hard knocks" },
