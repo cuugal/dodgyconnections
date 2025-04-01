@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Cricket shots", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Tennis terms", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Lifting equipment", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Stemmy plant appendages", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Ramp" },
+        { "id": "word2", "text": "Hook" },
+        { "id": "word3", "text": "Cut" },
+        { "id": "word4", "text": "Drive" },
+      
+        { "id": "word5", "text": "Ace" },
+        { "id": "word6", "text": "Love" },
+        { "id": "word7", "text": "Set" },
+        { "id": "word8", "text": "Let" },
+      
+        { "id": "word9", "text": "Jack" },
+        { "id": "word10", "text": "Hoist" },
+        { "id": "word11", "text": "Crane" },
+        { "id": "word12", "text": "Winch" },
+      
+        { "id": "word13", "text": "Stalk" },
+        { "id": "word14", "text": "Shoot" },
+        { "id": "word15", "text": "Stock" },
+        { "id": "word16", "text": "Trunk" }
+    ]
+}
