@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Seasonal sheep ", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Wood used for smoking", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Strike to noggin", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ Stick", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Dock" },
+        { "id": "word2", "text": "Shear" },
+        { "id": "word3", "text": "Drench" },
+        { "id": "word4", "text": "Vaccinate" },
+      
+        { "id": "word5", "text": "Hickory" },
+        { "id": "word6", "text": "Maple" },
+        { "id": "word7", "text": "Cherry" },
+        { "id": "word8", "text": "Alder" },
+      
+        { "id": "word9", "text": "Clock" },
+        { "id": "word10", "text": "Bump" },
+        { "id": "word11", "text": "Bop" },
+        { "id": "word12", "text": "Clout" },
+      
+        { "id": "word13", "text": "Hockey" },
+        { "id": "word14", "text": "Incense" },
+        { "id": "word15", "text": "Lip" },
+        { "id": "word16", "text": "Drum" }
+    ]
+}
