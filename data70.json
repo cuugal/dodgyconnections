@@ -1,12 +1,12 @@
 {
     "categories": [
-        { "name": "Connection and distribution points", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Connection points", "words": ["word1", "word2", "word3", "word4"] },
         { "name": "Performed by medical practitioner", "words": ["word5", "word6", "word7", "word8"] },
         { "name": "Persons found on sideline of football game", "words": ["word9", "word10", "word11", "word12"] },
         { "name": "Screw _", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
-        { "id": "word1", "text": "Bus" },
+        { "id": "word1", "text": "Confluence" },
         { "id": "word2", "text": "Manifold" },
         { "id": "word3", "text": "Junction" },
         { "id": "word4", "text": "Hub" },
