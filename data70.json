@@ -1,29 +1,29 @@
 {
     "categories": [
-        { "name": "Connection points Vans", "words": ["word1", "word2", "word3", "word4"] },
-        { "name": "Wood used for smoking", "words": ["word5", "word6", "word7", "word8"] },
-        { "name": "Strike to noggin", "words": ["word9", "word10", "word11", "word12"] },
-        { "name": "_ stick", "words": ["word13", "word14", "word15", "word16"] }
+        { "name": "Connection points", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Performed by medical practitioners", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Persons fund on sideline of football game", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Screw _", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
         { "id": "word1", "text": "Confluence" },
         { "id": "word2", "text": "Manifold" },
-        { "id": "word3", "text": "Junctin" },
+        { "id": "word3", "text": "Junction" },
         { "id": "word4", "text": "Hub" },
       
-        { "id": "word5", "text": "" },
-        { "id": "word6", "text": "" },
-        { "id": "word7", "text": "" },
-        { "id": "word8", "text": "" },
+        { "id": "word5", "text": "Surgery" },
+        { "id": "word6", "text": "Operation" },
+        { "id": "word7", "text": "Procedure" },
+        { "id": "word8", "text": "Observation" },
       
-        { "id": "word9", "text": "" },
-        { "id": "word10", "text": "" },
-        { "id": "word11", "text": "" },
-        { "id": "word12", "text": "" },
+        { "id": "word9", "text": "Coach" },
+        { "id": "word10", "text": "Doctor" },
+        { "id": "word11", "text": "Security" },
+        { "id": "word12", "text": "Photographer" },
       
-        { "id": "word13", "text": "" },
-        { "id": "word14", "text": "" },
-        { "id": "word15", "text": "" },
-        { "id": "word16", "text": " " }
+        { "id": "word13", "text": "Driver" },
+        { "id": "word14", "text": "Ball" },
+        { "id": "word15", "text": "Cap" },
+        { "id": "word16", "text": "Up" }
     ]
 }
