@@ -2,28 +2,28 @@
     "categories": [
         { "name": "Spoon varieties", "words": ["word1", "word2", "word3", "word4"] },
         { "name": "Found at a party", "words": ["word5", "word6", "word7", "word8"] },
-        { "name": "Words to describy chart topping music", "words": ["word9", "word10", "word11", "word12"] },
-        { "name": "French words geological structures", "words": ["word13", "word14", "word15", "word16"] }
+        { "name": "Words to describe chart topping music", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "French words", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
-        { "id": "word1", "text": "Gogh" },
-        { "id": "word2", "text": "Morrison" },
-        { "id": "word3", "text": "Halen" },
-        { "id": "word4", "text": "Dyke" },
+        { "id": "word1", "text": "Soup" },
+        { "id": "word2", "text": "Tea" },
+        { "id": "word3", "text": "Wooden" },
+        { "id": "word4", "text": "Table" },
       
-        { "id": "word5", "text": "Mike" },
-        { "id": "word6", "text": "Charlie" },
-        { "id": "word7", "text": "Delta" },
-        { "id": "word8", "text": "Oscar" },
+        { "id": "word5", "text": "Punch" },
+        { "id": "word6", "text": "Balloon" },
+        { "id": "word7", "text": "DJ" },
+        { "id": "word8", "text": "Cake" },
       
-        { "id": "word9", "text": "Silver" },
-        { "id": "word10", "text": "Bones" },
-        { "id": "word11", "text": "Gunn" },
-        { "id": "word12", "text": "Flint" },
+        { "id": "word9", "text": "Smash" },
+        { "id": "word10", "text": "Platinum" },
+        { "id": "word11", "text": "Hit" },
+        { "id": "word12", "text": "Blockbuster" },
       
-        { "id": "word13", "text": "Caldera" },
-        { "id": "word14", "text": "Crater" },
-        { "id": "word15", "text": "Dome" },
-        { "id": "word16", "text": "Sink hole" }
+        { "id": "word13", "text": "Entre" },
+        { "id": "word14", "text": "Omelette" },
+        { "id": "word15", "text": "Cliche" },
+        { "id": "word16", "text": "Bureau" }
     ]
 }
