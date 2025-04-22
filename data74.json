@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Chewed", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Cricket ball actions", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Priest paraphenalia", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ brush", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Bone" },
+        { "id": "word2", "text": "G" },
+        { "id": "word3", "text": "Echidna" },
+        { "id": "word4", "text": "Coronavirus" },
+      
+        { "id": "word5", "text": "Archer" },
+        { "id": "word6", "text": "Arwon" },
+        { "id": "word7", "text": "Kiwi" },
+        { "id": "word8", "text": "Brew" },
+      
+        { "id": "word9", "text": "Pee" },
+        { "id": "word10", "text": "Pear" },
+        { "id": "word11", "text": "Pouch" },
+        { "id": "word12", "text": "Paste" },
+      
+        { "id": "word13", "text": "Place" },
+        { "id": "word14", "text": "Prayer" },
+        { "id": "word15", "text": "Yoga" },
+        { "id": "word16", "text": "Welcome" }
+    ]
+}
