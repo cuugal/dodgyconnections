@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Interrogate", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Examples of solar exposure utilisation", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Item rendered irrevocably inoperative", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Classic SciFi", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Grill" },
+        { "id": "word2", "text": "Question" },
+        { "id": "word3", "text": "Probe" },
+        { "id": "word4", "text": "Quiz" },
+      
+        { "id": "word5", "text": "Bake" },
+        { "id": "word6", "text": "Tan" },
+        { "id": "word7", "text": "Burn" },
+        { "id": "word8", "text": "Dry" },
+      
+        { "id": "word9", "text": "Toast" },
+        { "id": "word10", "text": "Rooted" },
+        { "id": "word11", "text": "Totalled" },
+        { "id": "word12", "text": "Cactus" },
+      
+        { "id": "word13", "text": "Alien" },
+        { "id": "word14", "text": "Predator" },
+        { "id": "word15", "text": "Metropolis" },
+        { "id": "word16", "text": "Arrival" }
+    ]
+}
