@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Onomatopoeia", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Mechanical stress", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Icecream flavours", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Cloud_", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Click" },
+        { "id": "word2", "text": "Buzz" },
+        { "id": "word3", "text": "Pop" },
+        { "id": "word4", "text": "Cuckoo" },
+      
+        { "id": "word5", "text": "Shear" },
+        { "id": "word6", "text": "Twist" },
+        { "id": "word7", "text": "Stretch" },
+        { "id": "word8", "text": "Bend" },
+      
+        { "id": "word9", "text": "Hokey pokey" },
+        { "id": "word10", "text": "Rainbow" },
+        { "id": "word11", "text": "Bounty" },
+        { "id": "word12", "text": "Tiramisu" },
+      
+        { "id": "word13", "text": "Alien" },
+        { "id": "word14", "text": "Predator" },
+        { "id": "word15", "text": "Metropolis" },
+        { "id": "word16", "text": "Arrival" }
+    ]
+}
