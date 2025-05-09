@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "_ ship", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "To confer", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "A firm hold", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Heiroglyphs", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Mother" },
+        { "id": "word2", "text": "Flag" },
+        { "id": "word3", "text": "Space" },
+        { "id": "word4", "text": "Friend" },
+      
+        { "id": "word5", "text": "Present" },
+        { "id": "word6", "text": "Afford" },
+        { "id": "word7", "text": "Grant" },
+        { "id": "word8", "text": "Submit" },
+      
+        { "id": "word9", "text": "Purchase" },
+        { "id": "word10", "text": "Foothold" },
+        { "id": "word11", "text": "Anchorage" },
+        { "id": "word12", "text": "Support" },
+      
+        { "id": "word13", "text": "Owl" },
+        { "id": "word14", "text": "Viper" },
+        { "id": "word15", "text": "Water" },
+        { "id": "word16", "text": "Reeds" }
+    ]
+}
