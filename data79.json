@@ -3,7 +3,7 @@
         { "name": "_ ship", "words": ["word1", "word2", "word3", "word4"] },
         { "name": "To confer", "words": ["word5", "word6", "word7", "word8"] },
         { "name": "A firm underpinning", "words": ["word9", "word10", "word11", "word12"] },
-        { "name": "Heiroglyphs", "words": ["word13", "word14", "word15", "word16"] }
+        { "name": "Ancient Egyptian heiroglyphs", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
         { "id": "word1", "text": "Mother" },
