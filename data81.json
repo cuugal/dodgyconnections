@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Fraud and purveyor of woo", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Outer covering", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Rapid consumption of comestibles", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Flight _", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Guru" },
+        { "id": "word2", "text": "Quack" },
+        { "id": "word3", "text": "Crank" },
+        { "id": "word4", "text": "Medium" },
+      
+        { "id": "word5", "text": "Wolf" },
+        { "id": "word6", "text": "Lipstick" },
+        { "id": "word7", "text": "Phone" },
+        { "id": "word8", "text": "Brush" },
+      
+        { "id": "word9", "text": "Fission" },
+        { "id": "word10", "text": "Tear" },
+        { "id": "word11", "text": "Break" },
+        { "id": "word12", "text": "Part" },
+      
+        { "id": "word13", "text": "Spud" },
+        { "id": "word14", "text": "Ray" },
+        { "id": "word15", "text": "Top" },
+        { "id": "word16", "text": "Smoking" }
+    ]
+}
