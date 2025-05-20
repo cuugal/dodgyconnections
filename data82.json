@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Cheeses", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Deities", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Found in analogue watch", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Cattle breeds", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Caerphilly" },
+        { "id": "word2", "text": "Bruson" },
+        { "id": "word3", "text": "Case Ness" },
+        { "id": "word4", "text": "Wensleydale" },
+      
+        { "id": "word5", "text": "Eris" },
+        { "id": "word6", "text": "Feronia" },
+        { "id": "word7", "text": "Shed" },
+        { "id": "word8", "text": "Kama" },
+      
+        { "id": "word9", "text": "Complication" },
+        { "id": "word10", "text": "Cog" },
+        { "id": "word11", "text": "Escapement" },
+        { "id": "word12", "text": "Jewel" },
+      
+        { "id": "word13", "text": "Belted Galloway" },
+        { "id": "word14", "text": "Aubrac" },
+        { "id": "word15", "text": "Senopol" },
+        { "id": "word16", "text": "Ongole" }
+    ]
+}
