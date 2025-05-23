@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Plant propagation techniques", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Garbage", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Empty space", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "To publish or launch a product", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Graft" },
+        { "id": "word2", "text": "Bud" },
+        { "id": "word3", "text": "Layer" },
+        { "id": "word4", "text": "Divide" },
+      
+        { "id": "word5", "text": "Refuse" },
+        { "id": "word6", "text": "Debris" },
+        { "id": "word7", "text": "Scrap" },
+        { "id": "word8", "text": "Litter" },
+      
+        { "id": "word9", "text": "Void" },
+        { "id": "word10", "text": "Vacuum" },
+        { "id": "word11", "text": "Opening" },
+        { "id": "word12", "text": "Hollow" },
+      
+        { "id": "word13", "text": "Drop" },
+        { "id": "word14", "text": "Premiere" },
+        { "id": "word15", "text": "Release" },
+        { "id": "word16", "text": "Deploy" }
+    ]
+}
