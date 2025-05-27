@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Book parts", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "To mock gently", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Container closure", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Rose _", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Spine" },
+        { "id": "word2", "text": "Page" },
+        { "id": "word3", "text": "Jacket" },
+        { "id": "word4", "text": "Hinge" },
+      
+        { "id": "word5", "text": "Rib" },
+        { "id": "word6", "text": "Kid" },
+        { "id": "word7", "text": "Chide" },
+        { "id": "word8", "text": "Stir" },
+      
+        { "id": "word9", "text": "Lid" },
+        { "id": "word10", "text": "Seal" },
+        { "id": "word11", "text": "Top" },
+        { "id": "word12", "text": "Cap" },
+      
+        { "id": "word13", "text": "Hip" },
+        { "id": "word14", "text": "Bouquet" },
+        { "id": "word15", "text": "Quartz" },
+        { "id": "word16", "text": "Bush" }
+    ]
+}
