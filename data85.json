@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Tubular objects", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "To scoop out", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Starts with body part", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ Ride", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Reed" },
+        { "id": "word2", "text": "Flute" },
+        { "id": "word3", "text": "Cannula" },
+        { "id": "word4", "text": "Straw" },
+      
+        { "id": "word5", "text": "Bail" },
+        { "id": "word6", "text": "Shovel" },
+        { "id": "word7", "text": "Spoon" },
+        { "id": "word8", "text": "Ladel" },
+      
+        { "id": "word9", "text": "Scalpel" },
+        { "id": "word10", "text": "Legacy" },
+        { "id": "word11", "text": "Chestnut" },
+        { "id": "word12", "text": "Handsome" },
+      
+        { "id": "word13", "text": "Hay" },
+        { "id": "word14", "text": "Joy" },
+        { "id": "word15", "text": "Free" },
+        { "id": "word16", "text": "Fairground" }
+    ]
+}
