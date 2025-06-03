@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Noble gases", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Common coin alloy metals", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Elements named after gods", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Elements named after countries", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Ar" },
+        { "id": "word2", "text": "Kr" },
+        { "id": "word3", "text": "Ne" },
+        { "id": "word4", "text": "He" },
+      
+        { "id": "word5", "text": "Fe" },
+        { "id": "word6", "text": "Zn" },
+        { "id": "word7", "text": "Ni" },
+        { "id": "word8", "text": "Cu" },
+      
+        { "id": "word9", "text": "Th" },
+        { "id": "word10", "text": "Pm" },
+        { "id": "word11", "text": "Hg" },
+        { "id": "word12", "text": "Ti" },
+      
+        { "id": "word13", "text": "Po" },
+        { "id": "word14", "text": "Fr" },
+        { "id": "word15", "text": "Am" },
+        { "id": "word16", "text": "Ge" }
+    ]
+}
