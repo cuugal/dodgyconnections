@@ -1,7 +1,7 @@
 {
     "categories": [
         { "name": "Gravy ingedients", "words": ["word1", "word2", "word3", "word4"] },
-        { "name": "Neck tie knots", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Necktie knots", "words": ["word5", "word6", "word7", "word8"] },
         { "name": "Straight rods", "words": ["word9", "word10", "word11", "word12"] },
         { "name": "Items that are rolled", "words": ["word13", "word14", "word15", "word16"] }
     ],
@@ -19,7 +19,7 @@
         { "id": "word9", "text": "Rail" },
         { "id": "word10", "text": "Bar" },
         { "id": "word11", "text": "Stick" },
-        { "id": "word12", "text": "Rule" },
+        { "id": "word12", "text": "Ruler" },
       
         { "id": "word13", "text": "Barrel" },
         { "id": "word14", "text": "Tyre" },
