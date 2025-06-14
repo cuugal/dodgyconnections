@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "To take care of", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "They have poles", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Found in the sideboard", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Discard", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Mind" },
+        { "id": "word2", "text": "Watch" },
+        { "id": "word3", "text": "Tend" },
+        { "id": "word4", "text": "Nurture" },
+      
+        { "id": "word5", "text": "Magnet" },
+        { "id": "word6", "text": "Poland" },
+        { "id": "word7", "text": "Barbershop" },
+        { "id": "word8", "text": "Tent" },
+      
+        { "id": "word9", "text": "China" },
+        { "id": "word10", "text": "Coaster" },
+        { "id": "word11", "text": "Cutlery" },
+        { "id": "word12", "text": "Serviette" },
+      
+        { "id": "word13", "text": "Ditch" },
+        { "id": "word14", "text": "Scrap" },
+        { "id": "word15", "text": "Chuck" },
+        { "id": "word16", "text": "Shed" }
+    ]
+}
