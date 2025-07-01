@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "ICE engine functions", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Dubious marketing terms", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "_ class", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Actions intended to elicit amusement", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Prime" },
+        { "id": "word2", "text": "Choke" },
+        { "id": "word3", "text": "Throttle" },
+        { "id": "word4", "text": "Stop" },
+      
+        { "id": "word5", "text": "Organic" },
+        { "id": "word6", "text": "Original " },
+        { "id": "word7", "text": "Natural" },
+        { "id": "word8", "text": "Pure" },
+      
+        { "id": "word9", "text": "First" },
+        { "id": "word10", "text": "Cattle" },
+        { "id": "word11", "text": "Business" },
+        { "id": "word12", "text": "Upper" },
+      
+        { "id": "word13", "text": "Gag" },
+        { "id": "word14", "text": "Quip" },
+        { "id": "word15", "text": "Prank" },
+        { "id": "word16", "text": "Roast" }
+    ]
+}
