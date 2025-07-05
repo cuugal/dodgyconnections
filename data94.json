@@ -2,7 +2,7 @@
     "categories": [
         { "name": "Incessant talk", "words": ["word1", "word2", "word3", "word4"] },
         { "name": "Bicycle brake types", "words": ["word5", "word6", "word7", "word8"] },
-        { "name": "To run off quickly", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Found on the beach", "words": ["word9", "word10", "word11", "word12"] },
         { "name": "Double _", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
@@ -16,10 +16,10 @@
         { "id": "word7", "text": "Band" },
         { "id": "word8", "text": "Rim" },
       
-        { "id": "word9", "text": "Hare" },
-        { "id": "word10", "text": "Scoot" },
-        { "id": "word11", "text": "Bolt" },
-        { "id": "word12", "text": "Dash" },
+        { "id": "word9", "text": "Shell" },
+        { "id": "word10", "text": "Nipper" },
+        { "id": "word11", "text": "Flag" },
+        { "id": "word12", "text": "Umbrella" },
       
         { "id": "word13", "text": "Bass" },
         { "id": "word14", "text": "Adaptor" },
