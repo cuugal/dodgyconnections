@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Bit of hair", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Items possessing pressy type keys", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "K represent these (key in CMYK)", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ Note", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Lock" },
+        { "id": "word2", "text": "Curl" },
+        { "id": "word3", "text": "Strand" },
+        { "id": "word4", "text": "Tuft" },
+      
+        { "id": "word5", "text": "ATM" },
+        { "id": "word6", "text": "Piano " },
+        { "id": "word7", "text": "Calculator" },
+        { "id": "word8", "text": "Laptop" },
+      
+        { "id": "word9", "text": "Thousand" },
+        { "id": "word10", "text": "Potassium" },
+        { "id": "word11", "text": "Kelvin" },
+        { "id": "word12", "text": "Black" },
+      
+        { "id": "word13", "text": "Key" },
+        { "id": "word14", "text": "Love" },
+        { "id": "word15", "text": "Top" },
+        { "id": "word16", "text": "Quarter" }
+    ]
+}
