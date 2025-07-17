@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "REM members", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Possesses a thread", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "A timely fortuitous blessing", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Sweet _", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Buck" },
+        { "id": "word2", "text": "Berry" },
+        { "id": "word3", "text": "Mills" },
+        { "id": "word4", "text": "Stipe" },
+      
+        { "id": "word5", "text": "Nut" },
+        { "id": "word6", "text": "Thermos" },
+        { "id": "word7", "text": "Bobbin" },
+        { "id": "word8", "text": "Edison bulb" },
+      
+        { "id": "word9", "text": "Boon" },
+        { "id": "word10", "text": "Perk" },
+        { "id": "word11", "text": "Aid" },
+        { "id": "word12", "text": "Bonus" },
+      
+        { "id": "word13", "text": "Pea" },
+        { "id": "word14", "text": "Heart" },
+        { "id": "word15", "text": "Tooth" },
+        { "id": "word16", "text": "Spot" }
+    ]
+}
