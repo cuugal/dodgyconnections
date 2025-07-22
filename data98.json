@@ -2,7 +2,7 @@
     "categories": [
         { "name": "Bulbs", "words": ["word1", "word2", "word3", "word4"] },
         { "name": "French based homonyms", "words": ["word5", "word6", "word7", "word8"] },
-        { "name": "Farm weeds", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Provocatively annoy", "words": ["word9", "word10", "word11", "word12"] },
         { "name": "_ light", "words": ["word13", "word14", "word15", "word16"] }
     ],
     "words": [
@@ -17,9 +17,9 @@
         { "id": "word8", "text": "Refuse" },
       
         { "id": "word9", "text": "Nettle" },
-        { "id": "word10", "text": "Thistle" },
-        { "id": "word11", "text": "Dock" },
-        { "id": "word12", "text": "Blackberry" },
+        { "id": "word10", "text": "Bug" },
+        { "id": "word11", "text": "Perturb" },
+        { "id": "word12", "text": "Bait" },
       
         { "id": "word13", "text": "Spot" },
         { "id": "word14", "text": "Flood" },
