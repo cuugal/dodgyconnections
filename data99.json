@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Owl and the Pussycat nouns", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Found on the roof", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Stint in gaol", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ phone", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Owl" },
+        { "id": "word2", "text": "Guitar" },
+        { "id": "word3", "text": "Ring" },
+        { "id": "word4", "text": "Runcible spoon" },
+      
+        { "id": "word5", "text": "Tiles" },
+        { "id": "word6", "text": "Chimney" },
+        { "id": "word7", "text": "Possum" },
+        { "id": "word8", "text": "Antenna" },
+      
+        { "id": "word9", "text": "Sentence" },
+        { "id": "word10", "text": "Term" },
+        { "id": "word11", "text": "Time" },
+        { "id": "word12", "text": "Porridge" },
+      
+        { "id": "word13", "text": "Smart" },
+        { "id": "word14", "text": "Bat" },
+        { "id": "word15", "text": "Pay" },
+        { "id": "word16", "text": "Mobile" }
+    ]
+}
