@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Procedural actions in cricket", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Transmit data", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Magical spell", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "_ state", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Appeal" },
+        { "id": "word2", "text": "Declare" },
+        { "id": "word3", "text": "Review" },
+        { "id": "word4", "text": "Follow-on" },
+      
+        { "id": "word5", "text": "Post" },
+        { "id": "word6", "text": "Send" },
+        { "id": "word7", "text": "Upload" },
+        { "id": "word8", "text": "Air" },
+      
+        { "id": "word9", "text": "Trick" },
+        { "id": "word10", "text": "Hex" },
+        { "id": "word11", "text": "Curse" },
+        { "id": "word12", "text": "Charm" },
+      
+        { "id": "word13", "text": "Solid" },
+        { "id": "word14", "text": "Welfare" },
+        { "id": "word15", "text": "Emotional" },
+        { "id": "word16", "text": "Police" }
+    ]
+}
