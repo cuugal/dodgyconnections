@@ -137,6 +137,7 @@
   <script>
     let currentGame = 100;
     const totalGames = 100;
+    let gameNumber = currentGame;
     const colors = ['lightgreen', 'lightblue', 'lightcoral', 'lightgoldenrodyellow'];
 
     let selectedWords = [];
@@ -184,6 +185,12 @@
       });
 
       wordsGrid.addEventListener('click', hideCategoryName);
+
+      // Added to track game start
+      gtag('event', 'game_start', {
+        event_category: 'game',
+        game_number: gameNumber
+      });
     }
 
     function selectWord(event) {
@@ -224,6 +231,14 @@
 
         if (remainingCategories.length === 0) {
           document.getElementById('message').classList.remove('hidden');
+          // Track win
+          gtag('event', 'game_end', {
+            event_category: 'game',
+            game_number: gameNumber,
+            result: 'win',
+            total_guesses: 4 - guessesLeft
+          });
+            
         }
       } else {
         selectedWords.forEach(wordId => {
@@ -253,8 +268,25 @@
       if (guessesLeft > 0) {
         document.getElementById(`guess${guessesLeft}`).classList.add('hidden');
         guessesLeft--;
+
+        // Track the guess attempt
+        gtag('event', 'guess', {
+          event_category: 'game',
+          game_number: gameNumber,
+          guess_number: (4 - guessesLeft +1)
+        });
+        
         if (guessesLeft === 0) {
           document.getElementById('gameover').classList.remove('hidden');
+ 
+          // Game ended in loss
+            gtag('event', 'game_end', {
+              event_category: 'game',
+              game_number: gameNumber,
+              result: 'lose',
+              total_guesses: 4
+            });
+
         }
       }
     }
@@ -268,7 +300,10 @@
           if (!response.ok) throw new Error('Game not found');
           return response.json();
         })
-        .then(data => initializeGame(data))
+        .then(data => {
+          gameNumber = gameNum;
+          initializeGame(data);
+        })
         .catch(error => {
           alert(`Error loading game ${gameNum}: ${error}`);
         });
