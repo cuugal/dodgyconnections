@@ -1,0 +1,29 @@
+{
+    "categories": [
+        { "name": "Dog noises", "words": ["word1", "word2", "word3", "word4"] },
+        { "name": "Patsy", "words": ["word5", "word6", "word7", "word8"] },
+        { "name": "Animal proboscises", "words": ["word9", "word10", "word11", "word12"] },
+        { "name": "Curry _", "words": ["word13", "word14", "word15", "word16"] }
+    ],
+    "words": [
+        { "id": "word1", "text": "Howl" },
+        { "id": "word2", "text": "Bay" },
+        { "id": "word3", "text": "Keen" },
+        { "id": "word4", "text": "Bark" },
+      
+        { "id": "word5", "text": "Sap" },
+        { "id": "word6", "text": "Sucker" },
+        { "id": "word7", "text": "Chump" },
+        { "id": "word8", "text": "Mug" },
+      
+        { "id": "word9", "text": "Trunk" },
+        { "id": "word10", "text": "Snout" },
+        { "id": "word11", "text": "Beak" },
+        { "id": "word12", "text": "Muzzle" },
+      
+        { "id": "word13", "text": "Favour" },
+        { "id": "word14", "text": "Powder" },
+        { "id": "word15", "text": "Leaf" },
+        { "id": "word16", "text": "Sauce" }
+    ]
+}
