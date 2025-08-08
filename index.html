@@ -1,89 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Game Viewer</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dodgy Connections</title>
   <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+    }
+    h1 {
+      margin-top: 20px;
+    }
+    #game-container {
+      margin: 20px auto;
+      max-width: 500px;
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    .guess-input {
+      margin: 10px 0;
+    }
+    button {
+      padding: 8px 12px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    #nav-buttons {
+      margin-top: 20px;
+    }
+    #nav-buttons button {
+      margin: 0 5px;
+    }
     button:disabled {
-      opacity: 0.5;
+      background: #ccc;
       cursor: not-allowed;
     }
   </style>
 </head>
 <body>
-
-  <div>
-    <button id="firstGame">First</button>
-    <button id="prevGame">Previous</button>
-    <button id="randomGame">Random</button>
-    <button id="nextGame">Next</button>
-    <button id="lastGame">Last</button>
+  <h1>Dodgy Connections</h1>
+  <div id="game-container">
+    <p id="game-number"></p>
+    <div id="puzzle"></div>
+    <div class="guess-input">
+      <input type="text" id="guess" placeholder="Enter your guess"/>
+      <button onclick="makeGuess()">Guess</button>
+    </div>
+    <p id="feedback"></p>
   </div>
 
-  <div id="gameContainer">
-    <!-- Your game content will be loaded here -->
+  <div id="nav-buttons">
+    <button id="firstBtn" onclick="goToFirst()">First</button>
+    <button id="prevBtn" onclick="prevGame()">Prev</button>
+    <button id="nextBtn" onclick="nextGame()">Next</button>
+    <button id="lastBtn" onclick="goToLast()">Last</button>
   </div>
 
   <script>
-    // Example: totalGames should match your actual number of games
-    let totalGames = 50;
-    let currentGame = 1;
+    // Example game data
+    const games = [
+      { puzzle: "Puzzle 1: Guess a fruit", answer: "apple" },
+      { puzzle: "Puzzle 2: Guess an animal", answer: "dog" },
+      { puzzle: "Puzzle 3: Guess a country", answer: "france" },
+      { puzzle: "Puzzle 4: Guess a colour", answer: "blue" }
+    ];
 
-    function loadGame(gameNumber) {
-      // Replace this with your real game-loading logic
-      document.getElementById("gameContainer").innerText =
-        `Game #${gameNumber} loaded.`;
+    let currentGame = 0;
+    let totalGuesses = 0;
+
+    function displayGame(index) {
+      document.getElementById('game-number').textContent = `Game #${index + 1}`;
+      document.getElementById('puzzle').textContent = games[index].puzzle;
+      document.getElementById('feedback').textContent = "";
+      document.getElementById('guess').value = "";
+      updateNavButtons();
+    }
+
+    function makeGuess() {
+      const guessInput = document.getElementById('guess').value.trim().toLowerCase();
+      totalGuesses++;
+      if (guessInput === games[currentGame].answer) {
+        document.getElementById('feedback').textContent = "Correct!";
+      } else {
+        document.getElementById('feedback').textContent = "Wrong, try again!";
+      }
     }
 
     function updateNavButtons() {
-      document.getElementById('firstGame').disabled = (currentGame === 1);
-      document.getElementById('prevGame').disabled = (currentGame === 1);
-      document.getElementById('nextGame').disabled = (currentGame === totalGames);
-      document.getElementById('lastGame').disabled = (currentGame === totalGames);
+      document.getElementById('firstBtn').disabled = currentGame === 0;
+      document.getElementById('prevBtn').disabled = currentGame === 0;
+      document.getElementById('nextBtn').disabled = currentGame === games.length - 1;
+      document.getElementById('lastBtn').disabled = currentGame === games.length - 1;
     }
 
-    document.getElementById('firstGame').onclick = () => {
-      currentGame = 1;
-      loadGame(currentGame);
-      updateNavButtons();
-    };
+    function goToFirst() {
+      currentGame = 0;
+      displayGame(currentGame);
+    }
 
-    document.getElementById('lastGame').onclick = () => {
-      currentGame = totalGames;
-      loadGame(currentGame);
-      updateNavButtons();
-    };
-
-    document.getElementById('randomGame').onclick = () => {
-      let randomNum;
-      do {
-        randomNum = Math.floor(Math.random() * totalGames) + 1;
-      } while (randomNum === currentGame); // Avoid same game
-      currentGame = randomNum;
-      loadGame(currentGame);
-      updateNavButtons();
-    };
-
-    document.getElementById('prevGame').onclick = () => {
-      if (currentGame > 1) {
+    function prevGame() {
+      if (currentGame > 0) {
         currentGame--;
-        loadGame(currentGame);
-        updateNavButtons();
+        displayGame(currentGame);
       }
-    };
+    }
 
-    document.getElementById('nextGame').onclick = () => {
-      if (currentGame < totalGames) {
+    function nextGame() {
+      if (currentGame < games.length - 1) {
         currentGame++;
-        loadGame(currentGame);
-        updateNavButtons();
+        displayGame(currentGame);
       }
-    };
+    }
 
-    // Load the first game on page load
-    loadGame(currentGame);
-    updateNavButtons();
+    function goToLast() {
+      currentGame = games.length - 1;
+      displayGame(currentGame);
+    }
+
+    // Show the first game at startup
+    displayGame(currentGame);
   </script>
-
 </body>
 </html>
