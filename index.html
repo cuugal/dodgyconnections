@@ -128,10 +128,13 @@
       <div class="guess" id="guess4"></div>
     </div>
     <div class="spacing"></div>
-    <div>
-      <button id="prevGame">Previous</button>
-      <button id="nextGame">Next</button>
-    </div>
+  <div>
+    <button id="firstGame">|&lt;</button>
+    <button id="prevGame">&lt;Prev</button>
+    <button id="randomGame">Random</button>
+    <button id="nextGame">Next&gt;</button>
+    <button id="lastGame">&gt;|</button>
+  </div>
   </div>
 
   <script>
@@ -309,19 +312,58 @@
         });
     }
 
-    document.getElementById('prevGame').onclick = () => {
-      if (currentGame > 1) {
-        currentGame--;
-        loadGame(currentGame);
-      }
-    };
+function updateNavButtons() {
+  document.getElementById('firstGame').disabled = (currentGame === 1);
+  document.getElementById('prevGame').disabled = (currentGame === 1);
+  document.getElementById('nextGame').disabled = (currentGame === totalGames);
+  document.getElementById('lastGame').disabled = (currentGame === totalGames);
+}
 
-    document.getElementById('nextGame').onclick = () => {
-      if (currentGame < totalGames) {
-        currentGame++;
-        loadGame(currentGame);
-      }
-    };
+document.getElementById('firstGame').onclick = () => {
+  currentGame = 1;
+  loadGame(currentGame);
+  updateNavButtons();
+};
+
+document.getElementById('lastGame').onclick = () => {
+  currentGame = totalGames;
+  loadGame(currentGame);
+  updateNavButtons();
+};
+
+document.getElementById('randomGame').onclick = () => {
+  let randomNum;
+  do {
+    randomNum = Math.floor(Math.random() * totalGames) + 1;
+  } while (randomNum === currentGame); // Avoid reloading same game
+  currentGame = randomNum;
+  loadGame(currentGame);
+  updateNavButtons();
+};
+
+document.getElementById('prevGame').onclick = () => {
+  if (currentGame > 1) {
+    currentGame--;
+    loadGame(currentGame);
+    updateNavButtons();
+  }
+};
+
+document.getElementById('nextGame').onclick = () => {
+  if (currentGame < totalGames) {
+    currentGame++;
+    loadGame(currentGame);
+    updateNavButtons();
+  }
+};
+
+// Make sure buttons are set correctly on first load
+updateNavButtons();
+
+
+
+
+    
 
     loadGame(currentGame);
   </script>
