@@ -135,8 +135,8 @@
   </div>
 
   <script>
-    let currentGame = 101;
-    const totalGames = 101;
+    let currentGame = 100;
+    const totalGames = 100;
     let gameNumber = currentGame;
     const colors = ['lightgreen', 'lightblue', 'lightcoral', 'lightgoldenrodyellow'];
 
@@ -170,7 +170,7 @@
       document.getElementById('correct-categories').innerHTML = '';
 
       for (let i = 1; i <= 4; i++) {
-        document.getElementById(guess${i}).classList.remove('hidden');
+        document.getElementById(`guess${i}`).classList.remove('hidden');
       }
 
       shuffle(words);
@@ -251,12 +251,12 @@
 
     function showCategoryName(name) {
       const nameEl = document.getElementById('category-name');
-      nameEl.textContent = Category: ${name};
+      nameEl.textContent = `Category: ${name}`;
       nameEl.style.display = 'block';
 
       const correctCategories = document.getElementById('correct-categories');
       const categoryItem = document.createElement('div');
-      categoryItem.textContent = Correct: ${name};
+      categoryItem.textContent = `Correct: ${name}`;
       correctCategories.appendChild(categoryItem);
     }
 
@@ -266,7 +266,7 @@
 
     function removeGuess() {
       if (guessesLeft > 0) {
-        document.getElementById(guess${guessesLeft}).classList.add('hidden');
+        document.getElementById(`guess${guessesLeft}`).classList.add('hidden');
         guessesLeft--;
 
         // Track the guess attempt
@@ -292,8 +292,8 @@
     }
 
     function loadGame(gameNum) {
-      const fileName = data${gameNum}.json;
-      titleElement.textContent = Davids Dodgy Category Ripoff #${gameNum};
+      const fileName = `data${gameNum}.json`;
+      titleElement.textContent = `Davids Dodgy Category Ripoff #${gameNum}`;
 
       fetch(fileName)
         .then(response => {
@@ -305,7 +305,7 @@
           initializeGame(data);
         })
         .catch(error => {
-          alert(Error loading game ${gameNum}: ${error});
+          alert(`Error loading game ${gameNum}: ${error}`);
         });
     }
 
