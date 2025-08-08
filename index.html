@@ -1,130 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dodgy Connections</title>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-278DRG10MN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-278DRG10MN');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Davids Dodgy Category Ripoff</title>
+
+  <!-- version 1.4 -->
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
       margin: 0;
-      padding: 0;
-      background: #f7f7f7;
+      background-color: #f4f4f4;
     }
-    h1 {
-      margin-top: 20px;
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-    #game-container {
-      margin: 20px auto;
-      max-width: 500px;
-      background: white;
-      border-radius: 8px;
-      padding: 20px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    .categories {
+      display: flex;
+      justify-content: space-around;
+      margin: 10px;
+      width: 420px;
     }
-    .guess-input {
-      margin: 10px 0;
+    .words {
+      display: grid;
+      grid-template-columns: repeat(4, 100px);
+      grid-template-rows: repeat(4, 100px);
+      gap: 5px;
     }
-    button {
-      padding: 8px 12px;
-      font-size: 16px;
+    .category, .word {
+      width: 100px;
+      height: 100px;
+      margin: 5px;
+      border: 2px solid #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       cursor: pointer;
+      background-color: #fff;
+      text-align: center;
+      line-height: 1.2;
+      overflow: hidden;
     }
-    #nav-buttons {
+    .selected {
+      background-color: yellow;
+    }
+    .correct {
+      background-color: lightgreen;
+    }
+    .hidden {
+      display: none;
+    }
+    .guesses {
+      display: flex;
       margin-top: 20px;
     }
-    #nav-buttons button {
-      margin: 0 5px;
+    .guess {
+      width: 30px;
+      height: 30px;
+      margin: 5px;
+      background-color: red;
+      border-radius: 50%;
     }
-    button:disabled {
-      background: #ccc;
-      cursor: not-allowed;
+    #category-name {
+      font-size: 1.5em;
+      margin: 20px;
+      display: none;
+    }
+    #message {
+      margin-top: 20px;
+      color: green;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+    #gameover {
+      margin-top: 20px;
+      color: red;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+    #correct-categories {
+      margin-top: 20px;
+      font-size: 1.2em;
+    }
+    #title {
+      color: blue;
+    }
+    .spacing {
+      height: 20px;
+    }
+    #instruction {
+      font-size: 0.8em;
+      margin-bottom: 10px;
+      color: black;
     }
   </style>
 </head>
 <body>
-  <h1>Dodgy Connections</h1>
-  <div id="game-container">
-    <p id="game-number"></p>
-    <div id="puzzle"></div>
-    <div class="guess-input">
-      <input type="text" id="guess" placeholder="Enter your guess"/>
-      <button onclick="makeGuess()">Guess</button>
+  <div class="container">
+    <h2 id="title"></h2>
+    <p id="instruction">Find four groups of four.</p>
+    <div class="words" id="wordsGrid"></div>
+    <div class="spacing"></div>
+    <div id="message" class="hidden">Well done. You Win!</div>
+    <div id="gameover" class="hidden">Game Over!</div>
+    <div id="category-name"></div>
+    <div id="correct-categories"></div>
+    <div class="guesses">
+      <div class="guess" id="guess1"></div>
+      <div class="guess" id="guess2"></div>
+      <div class="guess" id="guess3"></div>
+      <div class="guess" id="guess4"></div>
     </div>
-    <p id="feedback"></p>
-  </div>
-
-  <div id="nav-buttons">
-    <button id="firstBtn" onclick="goToFirst()">First</button>
-    <button id="prevBtn" onclick="prevGame()">Prev</button>
-    <button id="nextBtn" onclick="nextGame()">Next</button>
-    <button id="lastBtn" onclick="goToLast()">Last</button>
+    <div class="spacing"></div>
+    <div>
+      <button id="prevGame">Previous</button>
+      <button id="nextGame">Next</button>
+    </div>
   </div>
 
   <script>
-    // Example game data
-    const games = [
-      { puzzle: "Puzzle 1: Guess a fruit", answer: "apple" },
-      { puzzle: "Puzzle 2: Guess an animal", answer: "dog" },
-      { puzzle: "Puzzle 3: Guess a country", answer: "france" },
-      { puzzle: "Puzzle 4: Guess a colour", answer: "blue" }
-    ];
+    let currentGame = 101;
+    const totalGames = 101;
+    let gameNumber = currentGame;
+    const colors = ['lightgreen', 'lightblue', 'lightcoral', 'lightgoldenrodyellow'];
 
-    let currentGame = 0;
-    let totalGuesses = 0;
+    let selectedWords = [];
+    let guessesLeft = 4;
+    let remainingCategories = [];
+    let currentColorIndex = 0;
 
-    function displayGame(index) {
-      document.getElementById('game-number').textContent = `Game #${index + 1}`;
-      document.getElementById('puzzle').textContent = games[index].puzzle;
-      document.getElementById('feedback').textContent = "";
-      document.getElementById('guess').value = "";
-      updateNavButtons();
+    const wordsGrid = document.getElementById('wordsGrid');
+    const titleElement = document.getElementById('title');
+
+    function shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
     }
 
-    function makeGuess() {
-      const guessInput = document.getElementById('guess').value.trim().toLowerCase();
-      totalGuesses++;
-      if (guessInput === games[currentGame].answer) {
-        document.getElementById('feedback').textContent = "Correct!";
+    function initializeGame(data) {
+      const categories = data.categories;
+      const words = data.words;
+
+      remainingCategories = [...categories];
+      selectedWords = [];
+      guessesLeft = 4;
+      currentColorIndex = 0;
+
+      document.getElementById('message').classList.add('hidden');
+      document.getElementById('gameover').classList.add('hidden');
+      document.getElementById('category-name').style.display = 'none';
+      document.getElementById('correct-categories').innerHTML = '';
+
+      for (let i = 1; i <= 4; i++) {
+        document.getElementById(guess${i}).classList.remove('hidden');
+      }
+
+      shuffle(words);
+      wordsGrid.innerHTML = '';
+      words.forEach(word => {
+        const wordElement = document.createElement('div');
+        wordElement.classList.add('word');
+        wordElement.id = word.id;
+        wordElement.textContent = word.text;
+        wordElement.onclick = selectWord;
+        wordsGrid.appendChild(wordElement);
+      });
+
+      wordsGrid.addEventListener('click', hideCategoryName);
+
+      // Added to track game start
+      gtag('event', 'game_start', {
+        event_category: 'game',
+        game_number: gameNumber
+      });
+    }
+
+    function selectWord(event) {
+      const word = event.target;
+      if (selectedWords.includes(word.id)) {
+        word.classList.remove('selected');
+        selectedWords = selectedWords.filter(id => id !== word.id);
       } else {
-        document.getElementById('feedback').textContent = "Wrong, try again!";
+        word.classList.add('selected');
+        selectedWords.push(word.id);
+      }
+
+      if (selectedWords.length === 4) {
+        checkSelection();
       }
     }
 
-    function updateNavButtons() {
-      document.getElementById('firstBtn').disabled = currentGame === 0;
-      document.getElementById('prevBtn').disabled = currentGame === 0;
-      document.getElementById('nextBtn').disabled = currentGame === games.length - 1;
-      document.getElementById('lastBtn').disabled = currentGame === games.length - 1;
+    function checkSelection() {
+      let correctCategory = null;
+
+      for (const category of remainingCategories) {
+        if (category.words.every(word => selectedWords.includes(word))) {
+          correctCategory = category;
+          break;
+        }
+      }
+
+      if (correctCategory) {
+        for (const wordId of selectedWords) {
+          const el = document.getElementById(wordId);
+          el.style.backgroundColor = colors[currentColorIndex];
+          el.classList.remove('selected');
+        }
+        currentColorIndex = (currentColorIndex + 1) % colors.length;
+        remainingCategories = remainingCategories.filter(cat => cat !== correctCategory);
+        selectedWords = [];
+        showCategoryName(correctCategory.name);
+
+        if (remainingCategories.length === 0) {
+          document.getElementById('message').classList.remove('hidden');
+          // Track win
+          gtag('event', 'game_end', {
+            event_category: 'game',
+            game_number: gameNumber,
+            result: 'win',
+            total_guesses: 4 - guessesLeft
+          });
+            
+        }
+      } else {
+        selectedWords.forEach(wordId => {
+          document.getElementById(wordId).classList.remove('selected');
+        });
+        selectedWords = [];
+        removeGuess();
+      }
     }
 
-    function goToFirst() {
-      currentGame = 0;
-      displayGame(currentGame);
+    function showCategoryName(name) {
+      const nameEl = document.getElementById('category-name');
+      nameEl.textContent = Category: ${name};
+      nameEl.style.display = 'block';
+
+      const correctCategories = document.getElementById('correct-categories');
+      const categoryItem = document.createElement('div');
+      categoryItem.textContent = Correct: ${name};
+      correctCategories.appendChild(categoryItem);
     }
 
-    function prevGame() {
-      if (currentGame > 0) {
+    function hideCategoryName() {
+      document.getElementById('category-name').style.display = 'none';
+    }
+
+    function removeGuess() {
+      if (guessesLeft > 0) {
+        document.getElementById(guess${guessesLeft}).classList.add('hidden');
+        guessesLeft--;
+
+        // Track the guess attempt
+        gtag('event', 'guess', {
+          event_category: 'game',
+          game_number: gameNumber,
+          guess_number: (4 - guessesLeft +1)
+        });
+        
+        if (guessesLeft === 0) {
+          document.getElementById('gameover').classList.remove('hidden');
+ 
+          // Game ended in loss
+            gtag('event', 'game_end', {
+              event_category: 'game',
+              game_number: gameNumber,
+              result: 'lose',
+              total_guesses: 4
+            });
+
+        }
+      }
+    }
+
+    function loadGame(gameNum) {
+      const fileName = data${gameNum}.json;
+      titleElement.textContent = Davids Dodgy Category Ripoff #${gameNum};
+
+      fetch(fileName)
+        .then(response => {
+          if (!response.ok) throw new Error('Game not found');
+          return response.json();
+        })
+        .then(data => {
+          gameNumber = gameNum;
+          initializeGame(data);
+        })
+        .catch(error => {
+          alert(Error loading game ${gameNum}: ${error});
+        });
+    }
+
+    document.getElementById('prevGame').onclick = () => {
+      if (currentGame > 1) {
         currentGame--;
-        displayGame(currentGame);
+        loadGame(currentGame);
       }
-    }
+    };
 
-    function nextGame() {
-      if (currentGame < games.length - 1) {
+    document.getElementById('nextGame').onclick = () => {
+      if (currentGame < totalGames) {
         currentGame++;
-        displayGame(currentGame);
+        loadGame(currentGame);
       }
-    }
+    };
 
-    function goToLast() {
-      currentGame = games.length - 1;
-      displayGame(currentGame);
-    }
-
-    // Show the first game at startup
-    displayGame(currentGame);
+    loadGame(currentGame);
   </script>
 </body>
 </html>
